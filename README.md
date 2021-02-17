@@ -7,11 +7,15 @@
 ### This is the one and only official site for all things related to Ewan James' music.
 
 Ewan is my son and an aspiring musician who writes, produces and plays his own original songs. Although present on some social media sites, he wanted
- me to design him a website to channel all these mediums in one place and begin building up his name and brand. From his website, a visitor can signup
- for exclusive email updates, find the latest gig locations and dates, buy tickets, download the latest music by Ewan James, see pictures from his
- musical journey or watch his latest youtube videos. The milestone project required me to design and build a website with at least three pages or
- page sections for a real or ficticious band. In this case I decided that since Ewan needed a website designed to help promote his songs that this is
- what I would do for the project.
+ me to design him a website to channel all these mediums in one place and begin building up his name and brand.
+ 
+From his website, a visitor can signup
+for exclusive email updates, find the latest gig locations and dates, buy tickets, download the latest music by Ewan James, see pictures from his
+musical journey or watch his latest youtube videos.
+ 
+The milestone project required me to design and build a website with at least three pages or
+page sections for a real or ficticious band. In this case I decided that since Ewan needed a website designed to help promote his songs that this is
+what I would do for the project.
 
 <hr>
 
@@ -38,7 +42,7 @@ interact with the site, he decided on the following:
 4. Watch videos by Ewan James.
 5. Buy official merchandise and tickets.
 
-Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, he wants to target the age ranges from 15 to 25 as his
+Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, he wants to target the age ranges **from 15 to 25** as his
 potential audience. Therefore, the social media links should be prominent on every page of the site as this is how he believes his target audience
 predominantly communicate.
 
@@ -87,9 +91,10 @@ future improvement to the site.
 
 ## TESTING:
 
-I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for
- logging small tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each
- page and also the responsiveness on multiple different viewing platforms and web browsers.
+I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for 
+logging small tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each 
+page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing process created by former 
+student Tim Nelson and I re-created and adapted it to work with the contents of my website so as not to copy his work.
 
 
 ## DEPLOYMENT:
@@ -97,8 +102,8 @@ I created 2 spreadhsheets to maintain continuous testing throughout the course o
 
 
 ## CREDITS:
-* To create a testing mechanism, I found a sample spreadsheet in 
-
+* Photos were supplied by Ewan Brown (Ewan James) along with the audio and social media links.
+* Biography of Ewan was written by him and then modified by me to suit the needs of each page in the website.
 
 ## CONTENT:
 
