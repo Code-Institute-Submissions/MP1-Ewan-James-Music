@@ -15,7 +15,7 @@ musical journey or watch his latest youtube videos.
  
 The milestone project required me to design and build a website with at least three pages or
 page sections for a real or ficticious band. In this case I decided that since Ewan needed a website designed to help promote his songs that this is
-what I would do for the project.
+what I would do for the project and he agreed.
 
 <hr>
 
@@ -23,7 +23,7 @@ what I would do for the project.
 
 **STRATEGY & SCOPE:**
 
-After disucssions with Ewan on what he wanted to achieve by having a website plus what he expected a visitor to the site to find and how they would
+After discussions with Ewan on what he wanted to achieve by having a website plus what he expected a visitor to the site to find and how they would
 interact with the site, he decided on the following:
 
 **Goals set by the website owner:**
