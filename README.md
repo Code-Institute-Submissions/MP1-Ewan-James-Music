@@ -42,7 +42,7 @@ interact with the site, he decided on the following:
 4. Watch videos by Ewan James.
 5. Buy official merchandise and tickets.
 
-Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, he wants to target the age ranges **from 15 to 25** as his
+Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, he wanted to target the age ranges **from 15 to 25** as his
 potential audience. Therefore, the social media links should be prominent on every page of the site as this is how he believes his target audience
 predominantly communicate.
 
