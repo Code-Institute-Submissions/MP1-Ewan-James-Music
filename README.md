@@ -17,7 +17,7 @@ The milestone project required me to design and build a website with at least th
 page sections for a real or ficticious band. In this case I decided that since Ewan needed a website designed to help promote his songs that this is
 what I would do for the project and he agreed.
 
-<hr>
+___
 
 ## UX
 
