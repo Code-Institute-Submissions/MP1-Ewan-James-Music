@@ -63,16 +63,16 @@ Nine main things were identified as the features that Ewan wanted on his website
 These features were simplfied and categorised for importance and viability/feasability on a scale of 1-5 as per the lesson on 'UX Strategy Tradeoffs'.
 The results were as follows:
 
-Features | Importance | Viability/Feasability
----------|------------|----------------------
-1. Social Media Links | 5 | 5
-2. Email Signup | 5 | 3
-3. Audio Downloads | 5 | 5
-4. Merchandise Sales | 3 | 1
-5. Webchat | 2 | 2
-6. 'Book Me' facility | 4 | 3
-7. Video links | 5 | 5
-**TOTALS** | **29** | **24**
+Features              | Importance | Viability/Feasability
+----------------------|------------|----------------------
+1. Social Media Links | 5          | 5
+2. Email Signup       | 5          | 3
+3. Audio Downloads    | 5          | 5
+4. Merchandise Sales  | 3          | 1
+5. Webchat            | 2          | 2
+6. 'Book Me' facility | 4          | 3
+7. Video links        | 5          | 5
+**TOTALS**            | **29**     | **24**
 
 The results showed that the features of highest importance, viability and feasibility were items 1, 2, 3 and 7 so these should all be included in the
 site. Item 6 would be added if time and resources allowed.
@@ -92,10 +92,9 @@ future improvement to the site.
 ## TESTING:
 
 I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for 
-logging small tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each 
+logging small commit-level tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each 
 page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing process created by former 
-student Tim Nelson and I re-created and adapted it to work with the contents of my website so as not to copy his work.
-
+student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the contents of my website and testing so as not to copy his work directly.
 
 ## DEPLOYMENT:
 
