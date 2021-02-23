@@ -46,7 +46,7 @@ Since Ewan is a teenager himself and writes songs about the highs and lows of be
 potential audience. Therefore, the social media links should be prominent on every page of the site as this is how he believes his target audience
 predominantly communicate.
 
-**Structure:**
+**STRUCTURE:**
 
 Ewan doesn't have much content for his website yet as he is just starting out, so we decided to keep the structure simple:
 
@@ -74,11 +74,16 @@ information.
 
 All pages should have a 'back to top' button at the bottom-centre of the page if the user needs to scroll down to see more content on that page.
 
+**SKELETON:**
+
+The wireframes for each webpage were created using the 'Balsamic' software and follow the basic design rules decided on in the 'Structure' phase. The wireframes
+were each saved in a .png format and attached with this repository in a separate folder called 'wireframes' to view.
+
 ## DESIGN
 
-Each page should have a different picture of Ewan or his equipment to emphasize to the user that they are on a different page. Also, after the header (which
-will contain the logo, navigation and social media links), with the expection of the signup page, the first section underneath should be a callout to get the
-user to signup their email address to receive updates. Then the main page title and content should follow.
+Each page should have a different picture at the top of Ewan or his equipment to emphasize to the user that they are on a different page. Also, after the header
+(which will contain the logo, navigation and social media links), with the expection of the signup page, the first section underneath should be a callout to get 
+the user to signup their email address to receive updates. Then the main page title and content should follow.
 
 After discussions with Ewan about his favourite colours, he decided that he wanted to have the standing theme for text running throughout the website as a
 deep blue. Unsure of the blue colour used in his logo design, I asked him to look at a selection of hex colours in Adobe Photoshop and he liked #2712ab.
@@ -128,8 +133,6 @@ Item 5 was not important enough or able to be achieved within the timeframe set 
 but since there is currently no merchandise available and I don't have the skills/resources to setup an online shop then this was considered as a
 future improvement to the site.
 
-
-
 ## TECHNOLOGIES USED
 
 * HTML5 - This was used to create the 'shell' or main structure of each webpage.
@@ -141,10 +144,15 @@ future improvement to the site.
 
 ## TESTING
 
+For testing the responsiveness on various different devices I used the website www.responsinator.com. This helped me to decide what size devices to put into my
+overall responsiveness testing spreadsheet. I also used http://ami.responsivedesign.is/# to take screenshots on the four most-common devices to view my webpages
+on one image.
+
 I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for 
-logging small commit-level tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each 
-page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing process created by former 
-student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the contents of my website and testing so as not to copy his work directly.
+logging small commit-level tests after each code or feature change which can be seen in the folder 'testing'. The second was a more detailed spreadsheet designed
+to test the validity of the code on each page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing 
+process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the contents of my website and testing so as not
+to copy his work directly.
 
 ## DEPLOYMENT
 
@@ -163,5 +171,6 @@ student of the Code Institute, Tim Nelson and I re-created and adapted it to wor
 
 ## ACKNOWLEDGEMENTS
 
-* Thankyou to fellow SLACK user Michael Dijk for the suggestion on using www.responsinator.com to test the responsiveness of the site and help decide what viewing formats to virtually test the site on.
+* Thankyou to fellow SLACK user Michael Dijk for the suggestion on using www.responsinator.com to test the responsiveness of the site and help decide what 
+viewing formats to virtually test the site on.
 
