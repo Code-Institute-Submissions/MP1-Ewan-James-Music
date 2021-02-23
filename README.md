@@ -46,7 +46,53 @@ Since Ewan is a teenager himself and writes songs about the highs and lows of be
 potential audience. Therefore, the social media links should be prominent on every page of the site as this is how he believes his target audience
 predominantly communicate.
 
-## FEATURES:
+**Structure:**
+
+Ewan doesn't have much content for his website yet as he is just starting out, so we decided to keep the structure simple:
+
+1. Home Page.
+2. About Me Page.
+3. Downloads Page.
+4. Signup Page.
+
+The home page would be clicked to from all other pages by the logo in the centre-top of each page. To emphasize where the user is on the site, the border of
+the logo would be emphasized in the #daa520 on the home page only, which would be consistent with all other pages since they would all use the 'active' class 
+to reinforce which page the user is on.
+
+The content would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
+
+The about me page would be more detailed. To follow the header, the callout will be next with the page title underneath it and content. The page will be broken
+down into three sections: History, My Guitars, My Equipment. Each section will have anchor links to move directly to that section of the page or move back to
+the top of the screen.
+
+The downloads page would have the same callout as the about me page following the header, the page title underneath it and then a section for each song-release
+with it's title as a sub-header and links to Apple and Google for downloading these.
+
+The signup page does not need the callout at the top so this will be a header leading into form cells. The page will have a picture in the background and
+allow space for more images, videos etc. to be added in the future to emphasize the exclusive content and news that users could get based on previous
+information.
+
+All pages should have a 'back to top' button at the bottom-centre of the page if the user needs to scroll down to see more content on that page.
+
+## DESIGN
+
+Each page should have a different picture of Ewan or his equipment to emphasize to the user that they are on a different page. Also, after the header (which
+will contain the logo, navigation and social media links), with the expection of the signup page, the first section underneath should be a callout to get the
+user to signup their email address to receive updates. Then the main page title and content should follow.
+
+After discussions with Ewan about his favourite colours, he decided that he wanted to have the standing theme for text running throughout the website as a
+deep blue. Unsure of the blue colour used in his logo design, I asked him to look at a selection of hex colours in Adobe Photoshop and he liked #2712ab.
+He also liked 'goldenrod' so we looked up the hex colour for that using google and settled on using #daa520 for the hover effects on the nav selections. Again,
+to keep consistency, we decided that the social media icons would all be in the same blue as the text and the same goldenrod for the hover effects.
+
+We decided that the best looking font for the site would be 'lato' from 'googlefonts'. All navigation pages would be in uppercase to stand out, each with a
+goldenrod (#daa520) hover effect.
+
+It's common practice for modern websites to have their logo as the home page in the navigation and no other 'home' nav to select, so we decided to do that with
+his 'EJM' logo. The main difference was that he wanted his logo in the centre-top of the page and not the left. For added consistency, all the pages in the site 
+will have the navigation layout identical.
+
+## FEATURES
 
 Nine main things were identified as the features that Ewan wanted on his website. These were:
 
@@ -82,37 +128,40 @@ Item 5 was not important enough or able to be achieved within the timeframe set 
 but since there is currently no merchandise available and I don't have the skills/resources to setup an online shop then this was considered as a
 future improvement to the site.
 
-## TECHNOLOGIES USED:
+
+
+## TECHNOLOGIES USED
 
 * HTML5 - This was used to create the 'shell' or main structure of each webpage.
 * CSS3 - Cascading Stylesheets to create the look of the site such as colours, typography and image display.
 * Bootstrap V4.6 - Styling plugins to speed up the process of coding and add 'straight-out-of-the-box' code for specific features of the webpages.
 * Font Awesome V5.15.2 - This link is for adding icons to the webpages.
+* Googlefonts - Used to select and implement fonts throughout the webpages.
 
-## TESTING:
+
+## TESTING
 
 I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for 
 logging small commit-level tests after each code or feature change. The second was a more detailed spreadsheet designed to test the validity of the code on each 
 page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing process created by former 
 student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the contents of my website and testing so as not to copy his work directly.
 
-## DEPLOYMENT:
+## DEPLOYMENT
 
 
-
-## CREDITS:
+## CREDITS
 * Photos were supplied by Ewan Brown (Ewan James) along with the audio and social media links.
 * Biography of Ewan was written by him and then modified by me to suit the needs of each page in the website.
 
-## CONTENT:
+## CONTENT
 
 
 
-## MEDIA:
+## MEDIA
 
 
 
-## ACKNOWLEDGEMENTS:
+## ACKNOWLEDGEMENTS
 
 * Thankyou to fellow SLACK user Michael Dijk for the suggestion on using www.responsinator.com to test the responsiveness of the site and help decide what viewing formats to virtually test the site on.
 
