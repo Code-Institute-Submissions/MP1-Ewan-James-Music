@@ -16,7 +16,7 @@ body {
 
 .brand-container {
     display: block;
-    /*background: url(../images/ewan-james-headshot.jpg) center center;*/
+    background: url(../images/ewan-james-headshot.jpg) center center;
     border: 5px solid blue;
 }
 
