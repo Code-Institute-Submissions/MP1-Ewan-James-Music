@@ -8,3 +8,33 @@ body {
     border: 0;
     margin: 0;
 }
+
+/*---------------------------------------------horizontal rule*/
+
+
+/*---------------------------------------------brand-container*/
+
+.brand-container {
+    display: block;
+    /*background: url(../images/ewan-james-headshot.jpg) center center;*/
+    border: 5px solid blue;
+}
+
+.brand-container-circle {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #2712ab;
+    border-radius: 50%;
+}
+
+.brand-container-circle:hover {
+    border: 5px solid #daa520;
+    background: #daa520;
+}
+
+.brand-container-circle-logo {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 50%;
+}
