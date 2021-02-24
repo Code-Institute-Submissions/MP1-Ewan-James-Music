@@ -24,14 +24,14 @@ body {
     text-align: center;
 }
 
-.brand-container .brand-container-circle {
+.brand-container > .brand-container-circle {
     display: inline-block;
     width: 150px;
     height: 150px;
-    padding: 5px;
+    padding: 0;
     border: 5px solid #2712ab;
+    margin: 0;
     border-radius: 50%;
-    text-align: center;
 }
 
 .brand-container-circle:hover {
@@ -39,8 +39,41 @@ body {
     border: 5px solid #daa520;
 }
 
-.brand-container-circle-logo {
+.brand-container .brand-container-circle-logo {
     height: 150px;
     width: 150px;
+    border: 5px solid #2712ab; /*Remove this when border works on circle*/
+    padding: 10px;
     border-radius: 50%;
+}
+
+/*---------------------------------------------nav-links*/
+
+nav > ul {
+    text-align: center;
+    font-size: 175%;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    letter-spacing: 4px;
+    margin: 20px 15px 20px 15px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2712ab;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #daa520;
+}
+
+.active {
+    color: #daa520;
 }
