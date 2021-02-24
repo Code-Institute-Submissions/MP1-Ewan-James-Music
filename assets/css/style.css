@@ -11,30 +11,36 @@ body {
 
 /*---------------------------------------------horizontal rule*/
 
+.hr-blue {
+    background: #2712ab;
+    height: 5px;
+}
 
 /*---------------------------------------------brand-container*/
 
 .brand-container {
-    display: block;
-    background: url(../images/ewan-james-headshot.jpg) center center;
-    border: 5px solid blue;
+    background: url(../images/ewan-james-headshot.jpg) center center / contain;
+    height: 150px;
+    text-align: center;
 }
 
-.brand-container-circle {
-    height: 150px;
+.brand-container .brand-container-circle {
+    display: inline-block;
     width: 150px;
+    height: 150px;
+    padding: 5px;
     border: 5px solid #2712ab;
     border-radius: 50%;
+    text-align: center;
 }
 
 .brand-container-circle:hover {
-    border: 5px solid #daa520;
     background: #daa520;
+    border: 5px solid #daa520;
 }
 
 .brand-container-circle-logo {
     height: 150px;
     width: 150px;
-    padding: 20px;
     border-radius: 50%;
 }
