@@ -4,7 +4,6 @@ body {
     color: #2712ab;
     font-family: 'lato', sans-serif;
     background-image: url(../images/guitar-closeup.jpg);
-    opacity: 0.5;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -153,13 +152,27 @@ nav a:hover {
     color: #fff;
 }
 
-/*---------------------------------------------buttons*/
+/*---------------------------------------------jumbotron*/
 
-.btn-primary {
+.jumbotron {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.jumbotron > .display-4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.jumbotron .btn-primary {
     color: #2712ab;
+    text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 2px;
-    background: #2712ab;
     text-align: center;
+    background: #efefef;
+    border: 1px solid #2712ab;
 }
 
