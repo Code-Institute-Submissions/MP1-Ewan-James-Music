@@ -3,10 +3,15 @@
 body {
     color: #2712ab;
     font-family: 'lato', san-serif;
-    background-color: #fff;
+    background-image: url(../images/guitar-closeup.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     padding: 0;
     border: 0;
     margin: 0;
+
+    position: absolute;
 }
 
 h1 {
@@ -24,25 +29,43 @@ h2 {
     margin-top: 20px;
 }
 
+/*---------------------------------------------opaque-filter*/
+
+.opaque-filter {
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: rgba(0,0,0, 0.25);
+}
+
 /*---------------------------------------------horizontal rule*/
 
 .hr-blue {
-    background: #2712ab;
-    height: 5px;
+    background: transparent;
+}
+
+/*---------------------------------------------fixed-header*/
+
+.fixed-header {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /*---------------------------------------------brand-container*/
 
 .brand-container {
-    background: url(../images/ewan-james-headshot.jpg) center center / contain;
-    height: 150px;
+    background: url(../images/ejm-logo.jpeg) center center / contain;
+    height: 50px;
     text-align: center;
 }
 
 .brand-container > .brand-container-circle {
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     padding: 0;
     border: 5px solid #2712ab;
     margin: 0;
@@ -55,8 +78,8 @@ h2 {
 }
 
 .brand-container .brand-container-circle-logo {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
     border: 5px solid #2712ab; /*Remove this when border works on circle*/
     padding: 10px;
     border-radius: 50%;
@@ -70,13 +93,15 @@ nav > ul {
     text-transform: uppercase;
     background: #efefef;
     padding: 0;
+    border-top: 5px solid #2712ab;
+    border-bottom: 5px solid #2712ab;
     margin: 0;
 }
 
 nav li {
     display: inline-block;
     letter-spacing: 4px;
-    margin: 20px 15px 20px 15px;
+    margin: 15px;
     vertical-align: middle;
 }
 
@@ -94,13 +119,14 @@ nav a:hover {
     color: #daa520;
 }
 
-/*------------------------------------------------------------social-media*/
+/*---------------------------------------------social-media*/
 
 .social-media > ul {
     text-align: center;
     font-size: 40px;
     background: #efefef;
     padding: 0;
+    border-bottom: 5px solid #2712ab;
     margin: 0;
 }
 
@@ -117,3 +143,16 @@ nav a:hover {
 .social-media-icon i:hover {
     color: #daa520;
 }
+/*---------------------------------------------welcome*/
+
+
+
+/*---------------------------------------------callout-button*/
+
+.btn-primary {
+    display: inline-block;
+    color: #2712ab;
+    background: #2712ab;
+    text-align: center;
+}
+
