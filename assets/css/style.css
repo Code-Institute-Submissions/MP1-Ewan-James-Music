@@ -187,5 +187,16 @@ nav a:hover {
     background-color: #ff0000;
 }
 
+/*---------------------------------------------callout newsong*/
+
+.callout-newsong > h2 {
+    color: #fff;
+}
+
+.callout-newsong > iframe {
+    border: 5px solid #2712ab;
+    margin: 20px;
+}
+
 
 
