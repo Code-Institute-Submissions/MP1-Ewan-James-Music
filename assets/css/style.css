@@ -2,7 +2,7 @@
 
 body {
     color: #2712ab;
-    font-family: 'lato', san-serif;
+    font-family: 'lato', sans-serif;
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
     border: 0;
     margin: 0;
 
-    position: absolute;
+    position: relative;
 }
 
 h1 {
@@ -29,15 +29,17 @@ h2 {
     margin-top: 20px;
 }
 
-/*---------------------------------------------opaque-filter*
+/*---------------------------------------------opaque-overlay*/
 
-/opaque-filter {
-    position: relative;
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
+.opaque-overlay {
+    position: absolute;
     top: 0;
     left: 0;
-    opacity: rgba(0,0,0, 0.25);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
-
 /*---------------------------------------------horizontal rule*/
 
 .hr-blue {
@@ -150,11 +152,12 @@ nav a:hover {
     color: #fff;
 }
 
-/*---------------------------------------------callout-button*/
+/*---------------------------------------------buttons*/
 
 .btn-primary {
-    display: inline-block;
     color: #2712ab;
+    font-size: 24px;
+    letter-spacing: 2px;
     background: #2712ab;
     text-align: center;
 }
