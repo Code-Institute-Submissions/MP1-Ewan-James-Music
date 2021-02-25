@@ -14,6 +14,11 @@ body {
     position: relative;
 }
 
+.wrapper {
+    width: 1000px;
+    height: 100%;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -31,7 +36,7 @@ h2 {
 
 /*---------------------------------------------opaque-overlay*/
 
-/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -39,11 +44,6 @@ h2 {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-}
-/*---------------------------------------------horizontal rule*/
-
-.hr-blue {
-    background: transparent;
 }
 
 /*---------------------------------------------fixed-header*/
@@ -59,7 +59,8 @@ h2 {
 /*---------------------------------------------brand-container*/
 
 .brand-container {
-    background: url(../images/ejm-logo.jpeg) center center / contain;
+    /*background: url(../images/ejm-logo.jpeg) center center / contain;*/
+    background:#efefef;
     height: 60px;
     text-align: center;
 }
@@ -155,11 +156,14 @@ nav a:hover {
 /*---------------------------------------------jumbotron*/
 
 .jumbotron {
-    background-color: rgba(0,0,0,0.7);
+    background-color: #efefef;
+    border: 5px solid #2712ab;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 100px;
 }
 
 .jumbotron > .display-4 {
-    color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 2px;
@@ -169,10 +173,19 @@ nav a:hover {
 .jumbotron .btn-primary {
     color: #2712ab;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
     background: #efefef;
-    border: 1px solid #2712ab;
+    border: 5px solid #2712ab;
+    margin-bottom: 20px;
 }
+
+.jumbotron .btn-primary:hover {
+    color: #daa520;
+    border: 5px solid #daa520;
+    background-color: #ff0000;
+}
+
+
 
