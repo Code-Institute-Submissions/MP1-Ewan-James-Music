@@ -6,7 +6,7 @@ body {
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     padding: 0;
     border: 0;
     margin: 0;
@@ -29,9 +29,9 @@ h2 {
     margin-top: 20px;
 }
 
-/*---------------------------------------------opaque-filter*/
+/*---------------------------------------------opaque-filter*
 
-.opaque-filter {
+/opaque-filter {
     position: relative;
     top: 0;
     left: 0;
@@ -46,9 +46,9 @@ h2 {
 
 /*---------------------------------------------fixed-header*/
 
+/*Fixed header Code copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu. Modified to fit my project*/
 .fixed-header {
   overflow: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
@@ -58,14 +58,14 @@ h2 {
 
 .brand-container {
     background: url(../images/ejm-logo.jpeg) center center / contain;
-    height: 50px;
+    height: 60px;
     text-align: center;
 }
 
 .brand-container > .brand-container-circle {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     padding: 0;
     border: 5px solid #2712ab;
     margin: 0;
@@ -78,8 +78,8 @@ h2 {
 }
 
 .brand-container .brand-container-circle-logo {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border: 5px solid #2712ab; /*Remove this when border works on circle*/
     padding: 10px;
     border-radius: 50%;
@@ -101,7 +101,7 @@ nav > ul {
 nav li {
     display: inline-block;
     letter-spacing: 4px;
-    margin: 15px;
+    margin: 5px 15px 5px 15px;
     vertical-align: middle;
 }
 
@@ -123,7 +123,7 @@ nav a:hover {
 
 .social-media > ul {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     background: #efefef;
     padding: 0;
     border-bottom: 5px solid #2712ab;
@@ -132,7 +132,7 @@ nav a:hover {
 
 .social-media li {
     display: inline-block;
-    margin: 15px 60px 15px 60px;
+    margin: 5px 60px 5px 60px;
     vertical-align: middle;
 }
 
@@ -145,7 +145,10 @@ nav a:hover {
 }
 /*---------------------------------------------welcome*/
 
-
+.welcome {
+    margin-top: 200px;
+    color: #fff;
+}
 
 /*---------------------------------------------callout-button*/
 

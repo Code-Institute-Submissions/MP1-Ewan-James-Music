@@ -97,6 +97,10 @@ It's common practice for modern websites to have their logo as the home page in 
 his 'EJM' logo. The main difference was that he wanted his logo in the centre-top of the page and not the left. For added consistency, all the pages in the site 
 will have the navigation layout identical.
 
+Whilst building the site, I became aware that it looked very basic and not very modern, so after consulting with Ewan we decided to add a background picture to
+the home page and change the menu and navgation to fixed position so that the rest of the page would scroll whilst the background and menu stayed the same. These
+effect were successful and liked by Ewan so we decided to use the same effects accross all four pages.
+
 ## FEATURES
 
 Nine main things were identified as the features that Ewan wanted on his website. These were:
