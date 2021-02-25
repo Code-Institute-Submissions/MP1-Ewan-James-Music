@@ -4,6 +4,7 @@ body {
     color: #2712ab;
     font-family: 'lato', sans-serif;
     background-image: url(../images/guitar-closeup.jpg);
+    opacity: 0.5;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -31,7 +32,7 @@ h2 {
 
 /*---------------------------------------------opaque-overlay*/
 
-/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*
 .opaque-overlay {
     position: absolute;
     top: 0;
