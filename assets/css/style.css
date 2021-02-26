@@ -141,9 +141,15 @@ nav a:hover {
 .social-media-icon i:hover {
     color: #daa520;
 }
-/*---------------------------------------------welcome*/
+/*---------------------------------------------guitar-background*/
 
-.welcome {
+.guitar-image {
+    background-image: url(../images/guitar-closeup.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.guitar-image-welcome {
     margin-top: 200px;
     color: #fff;
 }
