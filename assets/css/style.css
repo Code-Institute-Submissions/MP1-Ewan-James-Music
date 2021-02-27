@@ -134,7 +134,7 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
     position: static;
-    top: 220px;
+    top: 0;
     left: 0;
 }
 
@@ -143,10 +143,19 @@ nav a:hover {
     color: #fff;
 }
 
-/*---------------------------------------------opaque-overlay*/
+/*---------------------------------------------opaque-overlays*/
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
 .guitar-image-opaque-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.callout-newsong-opaque-overlay {
     position: relative;
     top: 0;
     left: 0;
@@ -199,7 +208,17 @@ nav a:hover {
 
 /*---------------------------------------------callout newsong*/
 
-.callout-newsong > h2 {
+.callout-newsong {
+    background: url(../images/ewan-james-im-sorry-reworked.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.callout-newsong > .callout-newsong-heading {
     color: #fff;
 }
 
