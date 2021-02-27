@@ -29,16 +29,6 @@ h2 {
     margin-top: 20px;
 }
 
-/*---------------------------------------------fixed-header*/
-
-/*Fixed header Code copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu. Modified to fit my project*/
-.fixed-header {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 /*---------------------------------------------brand-container*/
 
 .brand-container {
