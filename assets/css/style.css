@@ -18,15 +18,17 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
+    border: 0;
     padding: 0;
-    margin-top: 20px;
+    margin: 0;
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
     padding: 0;
-    margin-top: 20px;
+    border: 0;   
+    margin: 0;
 }
 
 /*---------------------------------------------brand-container*/
@@ -131,7 +133,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: absolute;
+    position: static;
     top: 220px;
     left: 0;
 }
@@ -139,7 +141,6 @@ nav a:hover {
 .guitar-image-welcome {
     padding: 100px;
     color: #fff;
-
 }
 
 /*---------------------------------------------opaque-overlay*/
@@ -154,15 +155,16 @@ nav a:hover {
     background-color: rgba(0,0,0,0.5);
 }
 
-
 /*---------------------------------------------callout-signup-jumbotron*/
 
 .callout-signup-jumbotron {
     background-color: #efefef;
-    border: 5px solid #2712ab;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 0 100px;
+    border-top: 5px solid #2712ab;
+    border-bottom: 5px solid #2712ab;
+
+    position: static;
+    top: 520px;
+    left: 0;
 }
 
 .callout-signup-jumbotron > .display-4 {
@@ -181,12 +183,16 @@ nav a:hover {
     background: #efefef;
     border: 5px solid #2712ab;
     margin-bottom: 20px;
+
+    position: relative;
+    top: 66%;
+    left: 40%;
 }
 
 .callout-signup-jumbotron .btn-primary:hover {
     color: #daa520;
-    border: 5px solid #daa520;
-    background-color: #ff0000;
+    background-color: #efefef;
+    border: 5px solid #efefef;
 }
 
 /*---------------------------------------------callout newsong*/
