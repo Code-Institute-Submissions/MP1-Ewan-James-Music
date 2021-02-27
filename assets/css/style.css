@@ -126,25 +126,28 @@ nav a:hover {
 .social-media-icon i:hover {
     color: #daa520;
 }
-/*---------------------------------------------welcome*/
+/*---------------------------------------------guitar-image-welcome*/
 
 .guitar-image {
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
+    position: absolute;
+    top: 225;
+    left: 0;
 }
 
 .guitar-image-welcome {
     padding: 100px;
-    margin-top: 222px;
     color: #fff;
+
 }
 
 /*---------------------------------------------opaque-overlay*/
 
-/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*
-.opaque-overlay {
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
+.guitar-image-opaque-overlay {
     position: relative;
     top: 225px;
     left: 0;
