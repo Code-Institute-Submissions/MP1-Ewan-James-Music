@@ -158,7 +158,7 @@ nav a:hover {
 /*---------------------------------------------callout-signup-jumbotron*/
 
 .callout-signup-jumbotron {
-    background-color: #efefef;
+    background-color: #ff6961;
     border-top: 5px solid #2712ab;
     border-bottom: 5px solid #2712ab;
 
@@ -168,9 +168,11 @@ nav a:hover {
 }
 
 .callout-signup-jumbotron > .display-4 {
+    color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 2px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -191,7 +193,7 @@ nav a:hover {
 
 .callout-signup-jumbotron .btn-primary:hover {
     color: #daa520;
-    background-color: #efefef;
+    background-color: #777;
     border: 5px solid #efefef;
 }
 

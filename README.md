@@ -105,6 +105,8 @@ the home page and change the menu and navgation to fixed position so that the re
 effect were liked by Ewan so we decided to use the same effects accross all four pages.
 
 Ewan and I also decided that the headshot photo would look better inside the circle and the logo repeated accross the header instead so this was changed.
+To make the section for the signup button ('YES PLEASE') stand out more, Ewan and I decided to make the section a different colour to the rest of the page. He
+picked a soft pastel colour which is not too dominant on the page but still stands out enough.
 
 ## FEATURES
 
