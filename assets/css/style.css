@@ -29,18 +29,6 @@ h2 {
     margin-top: 20px;
 }
 
-/*---------------------------------------------opaque-overlay*/
-
-/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-}
-
 /*---------------------------------------------fixed-header*/
 
 /*Fixed header Code copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu. Modified to fit my project*/
@@ -138,7 +126,7 @@ nav a:hover {
 .social-media-icon i:hover {
     color: #daa520;
 }
-/*---------------------------------------------guitar-background*/
+/*---------------------------------------------welcome*/
 
 .guitar-image {
     background-image: url(../images/guitar-closeup.jpg);
@@ -148,9 +136,23 @@ nav a:hover {
 }
 
 .guitar-image-welcome {
-    margin-top: 60px;
+    padding: 100px;
+    margin-top: 222px;
     color: #fff;
 }
+
+/*---------------------------------------------opaque-overlay*/
+
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*
+.opaque-overlay {
+    position: relative;
+    top: 225px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
 
 /*---------------------------------------------callout-signup-jumbotron*/
 
