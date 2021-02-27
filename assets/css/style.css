@@ -207,7 +207,7 @@ nav a:hover {
     left: 0;
 }
 
-*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
+/*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
 .callout-newsong-opaque-overlay {
     position: relative;
     top: 0;
@@ -221,7 +221,7 @@ nav a:hover {
     color: #fff;
 }
 
-.callout-newsong > iframe {
+.callout-newsong iframe {
     border: 5px solid #2712ab;
     margin: 20px;
 }
