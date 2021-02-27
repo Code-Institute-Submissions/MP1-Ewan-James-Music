@@ -42,7 +42,7 @@ interact with the site, he decided on the following:
 4. Watch videos by Ewan James.
 5. Buy official merchandise and tickets.
 
-Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, he wanted to target the age ranges **from 15 to 25** as his
+Since Ewan is a teenager himself and writes songs about the highs and lows of being a teenager, his target audience would be women between the ages of **from 15 to 25** and other musicians as his
 potential audience. Therefore, the social media links should be prominent on every page of the site as this is how he believes his target audience
 predominantly communicate.
 
@@ -59,7 +59,7 @@ The home page would be clicked to from all other pages by the logo in the centre
 the logo would be emphasized in the #daa520 on the home page only, which would be consistent with all other pages since they would all use the 'active' class 
 to reinforce which page the user is on.
 
-The content would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
+The content for each page would be supplied by Ewan. The layout would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
 
 The about me page would be more detailed. To follow the header, the callout will be next with the page title underneath it and content. The page will be broken
 down into three sections: History, My Guitars, My Equipment. Each section will have anchor links to move directly to that section of the page or move back to
@@ -101,7 +101,7 @@ will have the navigation layout identical.
 
 Whilst building the site, I became aware that it looked very basic, so after consulting with Ewan we decided to add a background picture to
 the home page and change the menu and navgation to fixed position so that the rest of the page would scroll whilst the background and menu stayed the same. These
-effect were successful and liked by Ewan so we decided to use the same effects accross all four pages.
+effect were liked by Ewan so we decided to use the same effects accross all four pages.
 
 ## FEATURES
 
@@ -154,11 +154,15 @@ For testing the responsiveness on various different devices I used the website w
 overall responsiveness testing spreadsheet. I also used http://ami.responsivedesign.is/# to take screenshots on the four most-common devices to view my webpages
 on one image.
 
-I created 2 spreadhsheets to maintain continuous testing throughout the course of creating this project. The first is a spreadsheet I created for 
-logging small commit-level tests after each code or feature change which can be seen in the folder 'testing'. The second was a more detailed spreadsheet designed
-to test the validity of the code on each page and also the responsiveness on multiple different viewing platforms and web browsers. This was similar to a testing 
-process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the contents of my website and testing so as not
-to copy his work directly.
+I created 2 spreadhsheet to maintain continuous testing throughout the course of creating this project but quickly found that the first sheet was both time-consuming 
+and duplicating the information in the commits on the repository. Instead I chose to adopt a 'change-it, test-it, commmit-it' stance and put notes in the commit on 
+the repository if there was anything that I either needed to make clearer than the commit message or if there were outstanding bugs to fix later. 
+
+The second was a more detailed spreadsheet designed to test the validity of the code on each page and also the responsiveness on multiple different viewing platforms
+and web browsers. This was similar to a testing process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the
+contents of my website and testing so as not to copy his work directly.
+
+Both sheets are in the directory labelled 'testing' in this repository for you to view.
 
 ## DEPLOYMENT
 
