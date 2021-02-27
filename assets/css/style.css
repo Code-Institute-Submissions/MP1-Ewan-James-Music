@@ -54,16 +54,16 @@ h2 {
 /*---------------------------------------------brand-container*/
 
 .brand-container {
-    /*background: url(../images/ejm-logo.jpeg) center center / contain;*/
+    background: url(../images/ejm-logo.jpeg) center center / contain;
     background:#efefef;
-    height: 60px;
+    height: 100px;
     text-align: center;
 }
 
 .brand-container > .brand-container-circle {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     padding: 0;
     border: 5px solid #2712ab;
     margin: 0;
@@ -76,8 +76,8 @@ h2 {
 }
 
 .brand-container .brand-container-circle-logo {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     border: 5px solid #2712ab; /*Remove this when border works on circle*/
     padding: 10px;
     border-radius: 50%;
