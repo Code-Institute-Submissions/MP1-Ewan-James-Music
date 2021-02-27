@@ -57,7 +57,8 @@ Ewan doesn't have much content for his website yet as he is just starting out, s
 
 The home page would be clicked to from all other pages by the logo in the centre-top of each page. To emphasize where the user is on the site, the border of
 the logo would be emphasized in the #daa520 on the home page only, which would be consistent with all other pages since they would all use the 'active' class 
-to reinforce which page the user is on.
+to reinforce which page the user is on. As this was only to be applied to the home page, I decided to use inline styles on the brand-container-circle and nav border-top.
+This would ensure that the other styles in the external stylesheet would still apply on all other pages.
 
 The content for each page would be supplied by Ewan. The layout would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
 
@@ -102,6 +103,8 @@ will have the navigation layout identical.
 Whilst building the site, I became aware that it looked very basic, so after consulting with Ewan we decided to add a background picture to
 the home page and change the menu and navgation to fixed position so that the rest of the page would scroll whilst the background and menu stayed the same. These
 effect were liked by Ewan so we decided to use the same effects accross all four pages.
+
+Ewan and I also decided that the headshot photo would look better inside the circle and the logo repeated accross the header instead so this was changed.
 
 ## FEATURES
 
