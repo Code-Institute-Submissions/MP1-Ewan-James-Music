@@ -161,13 +161,14 @@ on one image.
 
 I created 2 spreadhsheet to maintain continuous testing throughout the course of creating this project but quickly found that the first sheet was both time-consuming 
 and duplicating the information in the commits on the repository. Instead I chose to adopt a 'change-it, test-it, commmit-it' stance and put notes in the commit on 
-the repository if there was anything that I either needed to make clearer than the commit message or if there were outstanding bugs to fix later. 
+the repository if there was anything that I either needed to make clearer than the commit message or if there were outstanding bugs to fix later.
 
 The second was a more detailed spreadsheet designed to test the validity of the code on each page and also the responsiveness on multiple different viewing platforms
 and web browsers. This was similar to a testing process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the
 contents of my website and testing so as not to copy his work directly.
 
-Both sheets are in the directory labelled 'testing' in this repository for you to view.
+Both sheets are in the directory labelled 'testing' in this repository for you to view. I have included snippings of the validation test results in the 'testing'
+folder.
 
 ## DEPLOYMENT
 
