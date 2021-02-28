@@ -8,7 +8,7 @@
 
 body {
     color: #2712ab;
-    font-family: 'lato', sans-serif;
+    font-family: lato, sans-serif;
 }
 
 /*Style below copied from https://www.weblimitless.com/stop-website-showing-white-space-right-side/*/
@@ -152,7 +152,7 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
 }
 
 /*---------------------------------------------callout-signup-jumbotron*/
@@ -209,6 +209,7 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    text-align: center;
 }
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
@@ -229,7 +230,7 @@ nav a:hover {
 .callout-newsong iframe {
     position: relative;
     top: 100px;
-    left: 31%;
+    left: 0;
     border: 5px solid #2712ab;
     margin: 20px;
 }
@@ -238,19 +239,14 @@ nav a:hover {
     position: relative;
     top: 150px;
     left: 0;
-    color: #2712ab;
+    color: #fff;
     text-decoration: none;
-    background-color: #efefef;
-    font-size: 30px;
-    border: 5px solid #2712ab;
+    background-color: transparent;
 }
 
 .callout-newsong .back-to .to-top:hover {
     color: #daa520;
     text-decoration: none;
-    background-color: transparent;
-    border: 5px solid #daa520;
-    border-radius: 5%;
 }
 
 /*---------------------------------------------footer*/
@@ -272,3 +268,14 @@ footer {
     background: inherit;
     padding: 20px 0;
 }
+
+/*The following styles are for Laptop level screen*/
+@media screen and (max-width: 1393px) {
+
+
+/*The following styles are for Tablet level Phone screens*/
+@media screen and (max-width: 943px) {
+
+
+/*The following styles are for Mobile level Phone screens*/
+@media screen and (max-width: 800px) {
