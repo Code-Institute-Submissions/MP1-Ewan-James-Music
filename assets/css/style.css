@@ -135,6 +135,9 @@ nav a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
 }
 
 .guitar-image-welcome {
@@ -155,13 +158,12 @@ nav a:hover {
 /*---------------------------------------------callout-signup-jumbotron*/
 
 .callout-signup-jumbotron {
-    background-color: #ff6961;
-    border-top: 5px solid #2712ab;
-    border-bottom: 5px solid #2712ab;
-
     position: static;
     top: 520px;
     left: 0;
+    background-color: #ff6961;
+    border-top: 5px solid #2712ab;
+    border-bottom: 5px solid #2712ab;
 }
 
 .callout-signup-jumbotron > .display-4 {
@@ -200,10 +202,13 @@ nav a:hover {
     position: static;
     top: 0;
     left: 0;
+    height: 600px;
+    width: 100%;
     background: url(../images/ewan-james-im-sorry-reworked.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
 }
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
@@ -217,13 +222,14 @@ nav a:hover {
 }
 
 .callout-newsong .callout-newsong-heading {
-    position: relative;
-    top: 33%;
-    left: 40%;
     color: #fff;
+    text-align: center;
 }
 
 .callout-newsong iframe {
+    position: relative;
+    top: 100px;
+    left: 31%;
     border: 5px solid #2712ab;
     margin: 20px;
 }
