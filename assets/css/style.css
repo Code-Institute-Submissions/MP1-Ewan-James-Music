@@ -1,34 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-body {
-    color: #2712ab;
-    font-family: 'lato', sans-serif;
-    /*background-image: url(../images/guitar-closeup.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
+* {
     padding: 0;
     border: 0;
     margin: 0;
+}
 
-    /*position: relative;*/
+body {
+    color: #2712ab;
+    font-family: 'lato', sans-serif;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
-    border: 0;
-    padding: 0;
-    margin: 0;
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
-    padding: 0;
-    border: 0;   
-    margin: 0;
 }
 
 /*---------------------------------------------brand-container*/
@@ -191,8 +182,9 @@ nav a:hover {
 
 .callout-signup-jumbotron .btn-primary:hover {
     color: #daa520;
-    background-color: #777;
-    border: 5px solid #efefef;
+    background-color: #efefef;
+    border: 5px solid #daa520;
+    box-shadow: 8px 8px 10px #000;
 }
 
 /*---------------------------------------------callout newsong*/
