@@ -11,6 +11,14 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+/*Style below copied from https://www.weblimitless.com/stop-website-showing-white-space-right-side/*/
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -120,13 +128,13 @@ nav a:hover {
 /*---------------------------------------------guitar-image-welcome*/
 
 .guitar-image {
+    position: static;
+    top: 0;
+    left: 0;
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: static;
-    top: 0;
-    left: 0;
 }
 
 .guitar-image-welcome {
@@ -166,6 +174,9 @@ nav a:hover {
 }
 
 .callout-signup-jumbotron .btn-primary {
+    position: relative;
+    top: 66%;
+    left: 40%;
     color: #2712ab;
     text-transform: uppercase;
     font-size: 30px;
@@ -174,10 +185,6 @@ nav a:hover {
     background: #efefef;
     border: 5px solid #2712ab;
     margin-bottom: 20px;
-
-    position: relative;
-    top: 66%;
-    left: 40%;
 }
 
 .callout-signup-jumbotron .btn-primary:hover {
@@ -190,13 +197,13 @@ nav a:hover {
 /*---------------------------------------------callout newsong*/
 
 .callout-newsong {
+    position: static;
+    top: 0;
+    left: 0;
     background: url(../images/ewan-james-im-sorry-reworked.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: static;
-    top: 0;
-    left: 0;
 }
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
@@ -209,7 +216,10 @@ nav a:hover {
     background-color: rgba(0,0,0,0.5);
 }
 
-.callout-newsong > .callout-newsong-heading {
+.callout-newsong .callout-newsong-heading {
+    position: relative;
+    top: 33%;
+    left: 40%;
     color: #fff;
 }
 
