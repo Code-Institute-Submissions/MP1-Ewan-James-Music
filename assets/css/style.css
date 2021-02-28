@@ -49,7 +49,6 @@ h2 {
 }
 
 .brand-container-circle:hover {
-    background: #daa520;
     border: 5px solid #daa520;
 }
 
@@ -235,7 +234,7 @@ nav a:hover {
     margin: 20px;
 }
 
-.callout-newsong .back-to .to-top {
+.callout-newsong .back-to-top {
     position: relative;
     top: 150px;
     left: 0;
@@ -244,7 +243,7 @@ nav a:hover {
     background-color: transparent;
 }
 
-.callout-newsong .back-to .to-top:hover {
+.callout-newsong .back-to-top:hover {
     color: #daa520;
     text-decoration: none;
 }
