@@ -236,11 +236,20 @@ nav a:hover {
 
 /*---------------------------------------------footer*/
 
-.owner-designer {
+footer {
+    position: static;
+    top: 0;
+    left: 0;
     background:#efefef;
     height: 60px;
+    border-top: 5px solid #2712ab;
+}
+.owner-designer {
+    position: relative;
+    top: 30px;
+    left: 0;
     text-align: center;
+    background: inherit;
     padding: 20px 0;
-    border-top: 5px solid #2712ab; 
 }
 
