@@ -65,7 +65,7 @@ nav > ul {
     text-align: center;
     font-size: 175%;
     text-transform: uppercase;
-    background: #efefef;
+    background-color: #efefef;
     padding: 0;
     border-top: 5px solid #2712ab;
     border-bottom: 5px solid #2712ab;
@@ -98,7 +98,7 @@ nav a:hover {
 .social-media > ul {
     text-align: center;
     font-size: 30px;
-    background: #efefef;
+    background-color: #efefef;
     padding: 0;
     border-bottom: 5px solid #2712ab;
     margin: 0;
@@ -184,7 +184,7 @@ nav a:hover {
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    background: #efefef;
+    background-color: #efefef;
     border: 5px solid #2712ab;
     margin-bottom: 20px;
 }
@@ -234,6 +234,25 @@ nav a:hover {
     margin: 20px;
 }
 
+.callout-newsong .back-to .to-top {
+    position: relative;
+    top: 150px;
+    left: 0;
+    color: #2712ab;
+    text-decoration: none;
+    background-color: #efefef;
+    font-size: 30px;
+    border: 5px solid #2712ab;
+}
+
+.callout-newsong .back-to .to-top:hover {
+    color: #daa520;
+    text-decoration: none;
+    background-color: transparent;
+    border: 5px solid #daa520;
+    border-radius: 5%;
+}
+
 /*---------------------------------------------footer*/
 
 footer {
@@ -244,6 +263,7 @@ footer {
     height: 60px;
     border-top: 5px solid #2712ab;
 }
+
 .owner-designer {
     position: relative;
     top: 30px;
@@ -252,4 +272,3 @@ footer {
     background: inherit;
     padding: 20px 0;
 }
-
