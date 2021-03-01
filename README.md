@@ -57,7 +57,7 @@ Ewan doesn't have much content for his website yet as he is just starting out, s
 
 The home page would be clicked to from all other pages by the logo in the centre-top of each page. To emphasize where the user is on the site, the border of
 the logo would be emphasized in the #daa520 on the home page only, which would be consistent with all other pages since they would all use the 'active' class 
-to reinforce which page the user is on. As this was only to be applied to the home page, I decided to use inline styles on the brand-container-circle and nav border-top.
+to reinforce which page the user is on. As this was only to be applied to the home page, I decided to use an inline style on the brand-container-circle.
 This would ensure that the other styles in the external stylesheet would still apply on all other pages.
 
 The content for each page would be supplied by Ewan. The layout would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
@@ -98,7 +98,7 @@ It's common practice for modern websites to have their logo as the home page in 
 his 'EJM' logo. The main difference was that he wanted his logo in the centre-top of the page and not the left. For added consistency, all the pages in the site 
 will have the navigation layout identical.
 
-**Design (Skin) Amendments:**
+**Design (Skin) Amendments during development:**
 
 Whilst building the site, I became aware that it looked very basic, so after consulting with Ewan we decided to add a background picture to
 the home page and change the menu and navgation to fixed position so that the rest of the page would scroll whilst the background and menu stayed the same. These
@@ -107,6 +107,8 @@ effect were liked by Ewan so we decided to use the same effects accross all four
 Ewan and I also decided that the headshot photo would look better inside the circle and the logo repeated accross the header instead so this was changed.
 To make the section for the signup button ('YES PLEASE') stand out more, Ewan and I decided to make the section a different colour to the rest of the page. He
 picked a soft pastel colour which is not too dominant on the page but still stands out enough.
+
+It was decided that 'YES PLEASE!' on the signup button was not descriptive enough for a blind user so this was changed to 'Sign Me Up!' instead.
 
 ## FEATURES
 
