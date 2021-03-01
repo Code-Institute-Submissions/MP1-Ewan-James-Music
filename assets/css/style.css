@@ -273,5 +273,7 @@ footer {
 
 /*---------------------------------------------Mobile Media Styles*/
 @media screen and (max-width: 800px) {
-
+    .divider {
+        display: none;
+    }
 }
