@@ -32,6 +32,10 @@ h2 {
 
 /*---------------------------------------------brand-container*/
 
+#brand-goldenrod .brand-container-circle {
+    border: 5px solid #daa520;
+}
+
 .brand-container {
     background: url(../images/ejm-logo.jpeg) center center / contain;
     height: 100px;
@@ -59,6 +63,10 @@ h2 {
 }
 
 /*---------------------------------------------nav-links*/
+
+#goldenrod-border {
+    border-top: 5px solid #daa520;
+}
 
 nav > ul {
     text-align: center;

@@ -57,8 +57,9 @@ Ewan doesn't have much content for his website yet as he is just starting out, s
 
 The home page would be clicked to from all other pages by the logo in the centre-top of each page. To emphasize where the user is on the site, the border of
 the logo would be emphasized in the #daa520 on the home page only, which would be consistent with all other pages since they would all use the 'active' class 
-to reinforce which page the user is on. As this was only to be applied to the home page, I decided to use an inline style on the brand-container-circle.
-This would ensure that the other styles in the external stylesheet would still apply on all other pages.
+to change to #daa520 and reinforce which page the user is on. As this was only to be applied to the home page, I originally decided to use an inline style on
+the brand-container-circle and border-top of the brand container but later discovered I could add these as ids in the style sheet to do the same thing and keep the
+script tidy. The original colour was 'goldenrod' which is hex colour #daa520, so I added the word 'goldenrod' to the IDs to define them for the home page.
 
 The content for each page would be supplied by Ewan. The layout would be a simple 'welcome' message, then the callout to signup followed by his latest you-tube recording.
 
