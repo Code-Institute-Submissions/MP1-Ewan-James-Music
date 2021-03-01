@@ -128,8 +128,6 @@ nav a:hover {
 
 .guitar-image {
     position: static;
-    top: 0;
-    left: 0;
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -158,8 +156,6 @@ nav a:hover {
 
 .callout-signup-jumbotron {
     position: static;
-    top: 520px;
-    left: 0;
     background-color: #ff6961;
     border-top: 5px solid #2712ab;
     border-bottom: 5px solid #2712ab;
@@ -199,8 +195,6 @@ nav a:hover {
 
 .callout-newsong {
     position: static;
-    top: 0;
-    left: 0;
     height: 600px;
     width: 100%;
     background: url(../images/ewan-james-im-sorry-reworked.jpg);
@@ -252,8 +246,6 @@ nav a:hover {
 
 footer {
     position: static;
-    top: 0;
-    left: 0;
     background:#efefef;
     height: 60px;
     border-top: 5px solid #2712ab;
@@ -268,13 +260,18 @@ footer {
     padding: 20px 0;
 }
 
-/*The following styles are for Laptop level screen*/
+/*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
+/*---------------------------------------------Laptop Media Styles*/
 @media screen and (max-width: 1393px) {
+    
+}
 
-
-/*The following styles are for Tablet level Phone screens*/
+/*---------------------------------------------Tablet Media Styles*/
 @media screen and (max-width: 943px) {
 
+}
 
-/*The following styles are for Mobile level Phone screens*/
+/*---------------------------------------------Mobile Media Styles*/
 @media screen and (max-width: 800px) {
+
+}
