@@ -167,7 +167,8 @@ nav a:hover {
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    background: #fdfd96;
+    color: #fff;
+    background: #ff6961;
     height: 157px;
     width: 100%;
     padding: 40px 0;
