@@ -277,6 +277,7 @@ nav a:hover {
 
 .callout-signup-jumbotron {
     background-color: #ff6961;
+    border-bottom: 2px solid #2712ab;
 }
 
 .callout-signup-jumbotron > .display-4 {
