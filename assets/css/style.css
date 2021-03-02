@@ -169,6 +169,7 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center / contain;
+    text-align: center;
     width: 100%;
 }
 
@@ -319,24 +320,16 @@ nav a:hover {
     margin: 20px;
 }
 
-.callout-newsong .back-to-top {
-    top: 150px;
-    left: 0;
-    color: #efefef;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.callout-newsong .back-to-top:hover {
-    color: #daa520;
-    text-decoration: none;
-}
-
 /*---------------------------------------------back-to-top*/
 
 .back-to-top {
-    text-align: center;
+    /*text-align: center;*/
     color: #17a2b8;
+}
+
+.back-to-top:hover {
+    color: #daa520;
+    text-decoration: none;
 }
 
 /*---------------------------------------------footer*/
