@@ -111,6 +111,10 @@ picked a soft pastel colour which is not too dominant on the page but still stan
 
 It was decided that 'YES PLEASE!' on the signup button was not descriptive enough for a blind user so this was changed to 'Sign Me Up!' instead.
 
+To tidy-up the top of each page, it was decided to remove the title of each page. The justification was that the content of each page was different enough on each 
+one that the user would know where they are on the site without these. Each page nav is gold when the user is on that page (caused by the 'active' class is all 
+but the home page's case which uses a custom style) and a different picture on each page.
+
 ## FEATURES
 
 Nine main things were identified as the features that Ewan wanted on his website. These were:

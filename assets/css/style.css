@@ -168,7 +168,7 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     background: #fdfd96;
-    height: 200px;
+    height: 157px;
     width: 100%;
     padding: 40px 0;
 }
@@ -265,7 +265,7 @@ nav a:hover {
 /*---------------------------------------------callout-signup-jumbotron*/
 
 #signup-callout {
-    height: 200px;
+    height: 157px;
 }
 
 .callout-signup-jumbotron {
@@ -290,7 +290,7 @@ nav a:hover {
     text-align: center;
     background-color: #efefef;
     border: 5px solid #2712ab;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .callout-signup-jumbotron .btn-primary:hover {
