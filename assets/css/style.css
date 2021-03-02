@@ -34,7 +34,7 @@ h2 {
 .opaque-overlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
 }
 
 /*---------------------------------------------brand-container*/
@@ -168,10 +168,9 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     background: #fdfd96;
-    height: 180px;
+    height: 200px;
     width: 100%;
     padding: 40px 0;
-    border-bottom: 2px solid #2712ab;
 }
 
 .signup-form-image {
@@ -186,7 +185,7 @@ nav a:hover {
 
 /*---------------------------------------------about-me-headshot-image*/
 
-.about-me-headshot-image {
+#about-me {
     background-image: url(../images/ewan-james-headshot.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -196,19 +195,9 @@ nav a:hover {
     width: 100%;
 }
 
-/*.about-me-header-container > .about-me-header {
-    color: #fff;
-}
-
-.about-me-header-container .about-me-subheader {
-    color: #fff;
-}*/
-
 #about-me-anchor > ul {
     text-align: center;
     background: #efefef;
-    border-top: 5px solid #2712ab;
-    border-bottom: 5px solid #2712ab;
 }
 
 #about-me-anchor li {
@@ -274,6 +263,10 @@ nav a:hover {
 }
 
 /*---------------------------------------------callout-signup-jumbotron*/
+
+#signup-callout {
+    height: 200px;
+}
 
 .callout-signup-jumbotron {
     background-color: #ff6961;
