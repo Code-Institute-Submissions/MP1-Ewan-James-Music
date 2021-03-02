@@ -180,40 +180,72 @@ nav a:hover {
     color: #fff;
 }
 
-.about-me-anchor > ul {
+#about-me-anchor > ul {
     text-align: center;
     background: #efefef;
     border-top: 5px solid #2712ab;
     border-bottom: 5px solid #2712ab;
 }
 
-.about-me-anchor li {
+#about-me-anchor li {
     display: inline-block;
     margin: 5px 60px 5px 60px;
     vertical-align: middle;
 }
 
-.about-me-anchor i {
+#about-me-anchor i {
     display: inline-block;
     margin: 5px 60px 5px 60px;
     color: #2712ab;
     font-size: 100px;
 }
 
-.about-me-anchor i:hover {
+#about-me-anchor i:hover {
     color: #daa520;
 }
 
 /*---------------------------------------------History*/
 
-#history > img {
-    height: 150px;
-    width: 150px;
-    border: 5px solid #2712ab;
+#history {
+    text-align: center;
+    color: #efefef;
+    font-size: 50px;
 }
 
 #history ~ .history-paragraph {
     color: #efefef;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 60px;
+}
+
+/*---------------------------------------------my-guitars*/
+
+#my-guitars {
+    text-align: center;
+    color: #efefef;
+    font-size: 50px;
+}
+
+#my-guitars ~ .my-guitars-paragraph {
+    color: #efefef;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 60px;
+}
+
+/*---------------------------------------------my-equipment*/
+
+#my-equipment {
+    text-align: center;
+    color: #efefef;
+    font-size: 50px;
+}
+
+#my-equipment ~ .my-equipment-paragraph {
+    color: #efefef;
+    font-size: 20px;
+    text-align: justify;
     padding: 0 60px;
 }
 
@@ -290,7 +322,7 @@ nav a:hover {
 .callout-newsong .back-to-top {
     top: 150px;
     left: 0;
-    color: #fff;
+    color: #efefef;
     text-decoration: none;
     background-color: transparent;
 }
@@ -298,6 +330,13 @@ nav a:hover {
 .callout-newsong .back-to-top:hover {
     color: #daa520;
     text-decoration: none;
+}
+
+/*---------------------------------------------back-to-top*/
+
+.back-to-top {
+    text-align: center;
+    color: #17a2b8;
 }
 
 /*---------------------------------------------footer*/
