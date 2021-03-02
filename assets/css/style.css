@@ -82,7 +82,7 @@ nav > ul {
     background-color: #efefef;
     padding: 0;
     border-top: 5px solid #2712ab;
-    border-bottom: 5px solid #2712ab;
+    border-bottom: 2px solid #2712ab;
     margin: 0;
 }
 
@@ -114,7 +114,7 @@ nav a:hover {
     font-size: 30px;
     background-color: #efefef;
     padding: 0;
-    border-bottom: 5px solid #2712ab;
+    border-bottom: 2px solid #2712ab;
     margin: 0;
 }
 
@@ -159,6 +159,29 @@ nav a:hover {
 .welcome-image .welcome-subheader {
     padding: 50px;
     color: #fff;
+}
+
+/*---------------------------------------------signup-banner*/
+
+#signup-banner {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fdfd96;
+    height: 180px;
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 2px solid #2712ab;
+}
+
+.signup-form-image {
+    background-image: url(../images/ewan-james-acoustic-body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
 }
 
 /*---------------------------------------------about-me-headshot-image*/
@@ -254,8 +277,6 @@ nav a:hover {
 
 .callout-signup-jumbotron {
     background-color: #ff6961;
-    border-top: 5px solid #2712ab;
-    border-bottom: 5px solid #2712ab;
 }
 
 .callout-signup-jumbotron > .display-4 {
@@ -316,7 +337,7 @@ nav a:hover {
 .callout-newsong iframe {
     top: 100px;
     left: 0;
-    border: 5px solid #2712ab;
+    border: 2px solid #2712ab;
     margin: 20px;
 }
 
