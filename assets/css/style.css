@@ -332,7 +332,6 @@ nav a:hover {
 /*---------------------------------------------back-to-top*/
 
 .back-to-top {
-    /*text-align: center;*/
     color: #17a2b8;
 }
 
@@ -410,6 +409,10 @@ footer {
 }
 
 /*---------------------------------------------Feature-one*/
+
+#feature-two-downloads {
+    text-align: center;
+}
 
 .feature-two-container {
     height: 700px;
