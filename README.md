@@ -174,8 +174,12 @@ The second was a more detailed spreadsheet designed to test the validity of the 
 and web browsers. This was similar to a testing process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the
 contents of my website and testing so as not to copy his work directly.
 
-Both sheets are in the directory labelled 'testing' in this repository for you to view. I have included snippings of the validation test results in the 'testing'
-folder.
+Both sheets are in the directory labelled 'testing' in this repository for you to view. I have included snippings of the first validation test results in the 'testing'
+folder prior to completion of the whole site to test that my code structure was correct.
+
+During testing I noticed that the 'back-to-top' links were not in the centre of the page where I wanted them, so on pages that had a particular parent already for the
+link I added the declaration 'text-align: center'. However, on the downloads page I had to add an extra style attributed to the ID 'feature-two-downloads' which was 
+the parent div for the link in that page.
 
 ## DEPLOYMENT
 
