@@ -370,7 +370,7 @@ footer {
     border: 2px solid #2712ab;
     margin-top: 25px;
     margin-left: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 0;
 }
 
 .feature-one-heading {
@@ -380,6 +380,7 @@ footer {
     margin-left: 75px;
     margin-bottom: 50px;
 }
+
 .feature-one-image {
     height: 500px;
     width: 700px;
@@ -420,7 +421,7 @@ footer {
     border: 2px solid #2712ab;
     margin-top: 25px;
     margin-left: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .feature-two-heading {
@@ -431,6 +432,7 @@ footer {
     margin-left: 75px;
     margin-bottom: 50px;
 }
+
 .feature-two-image {
     height: 500px;
     width: 700px;
@@ -450,13 +452,13 @@ footer {
 .feature-two-apple-link img {
     position: relative;
     top: -500px;
-    left: 875px;
+    left: 400px;
 }
 
 .feature-two-googleplay-link img {
     position: relative;
     top: -320px;
-    left: 875px;
+    left: 475px;
 }
 
 /*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
