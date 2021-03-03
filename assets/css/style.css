@@ -367,6 +367,52 @@ footer {
     padding: 20px 0;
 }
 
+/*---------------------------------------------Feature-one*/
+
+.feature-one-container {
+    height: 650px;
+    width: 100%;
+    background: #efefef;
+    color: #2712ab;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.feature-one-heading {
+    color: #2712ab;
+    font-size: 125%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.feature-one-image {
+    height: 500px;
+    width: 700px;
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid #2712ab;
+    margin-left: 100px;
+}
+
+.feature-one-image > img {
+    height: 500px;
+    width: 700px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.feature-one-apple-link img {
+    position: relative;
+    top: -500px;
+    left: 900px;
+}
+
+.feature-one-googleplay-link img {
+    position: relative;
+    top: -320px;
+    left: 900px;
+}
+
 /*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
 /*---------------------------------------------Laptop Media Styles*/
 @media screen and (max-width: 1393px) {
