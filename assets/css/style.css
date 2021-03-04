@@ -22,6 +22,10 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 15px;
+}
+
 p {
     color: #efefef;
     font-size: 20px;
@@ -285,6 +289,56 @@ nav a:hover {
     margin: 20px;
 }
 
+/*---------------------------------------------downloads*/
+
+.dowloads-container {
+    height: 700px;
+    width: 1500px;
+    background: #efefef;
+    color: #2712ab;
+    font-size: 30px;
+    border: 2px solid #2712ab;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.downloads-heading {
+    color: #2712ab;
+    font-size: 200%;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.downloads-image-container {
+    height: 500px;
+    width: 700px;
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid #2712ab;
+    margin-left: 75px;
+}
+
+.downloads-image {
+    height: 500px;
+    width: 700px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.downloads-apple-link {
+    position: relative;
+    top: -500px;
+    left: 875px;
+}
+
+.downloads-googleplay-link {
+    position: relative;
+    top: -320px;
+    left: 875px;
+}
+
 /*---------------------------------------------back-to-top*/
 
 .back-to-top {
@@ -318,56 +372,6 @@ footer {
 .owner-designer-copyright-notice {
     color: #2712ab;
     text-align: center;
-}
-
-/*---------------------------------------------downloads*/
-
-.dowloads-container {
-    height: 700px;
-    width: 1500px;
-    background: #efefef;
-    color: #2712ab;
-    font-size: 30px;
-    border: 2px solid #2712ab;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 0;
-}
-
-.downloads-heading {
-    color: #2712ab;
-    font-size: 125%;
-    margin-top: 50px;
-    margin-left: 75px;
-    margin-bottom: 50px;
-}
-
-.downloads-image-container {
-    height: 500px;
-    width: 700px;
-    max-height: 100%;
-    max-width: 100%;
-    border: 2px solid #2712ab;
-    margin-left: 75px;
-}
-
-.downloads-image {
-    height: 500px;
-    width: 700px;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.downloads-apple-link {
-    position: relative;
-    top: -500px;
-    left: 875px;
-}
-
-.downloads-googleplay-link {
-    position: relative;
-    top: -320px;
-    left: 875px;
 }
 
 /*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
