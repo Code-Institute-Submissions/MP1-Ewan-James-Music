@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
+    font-size: 60px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
 }
 
 h2 {
-    text-align: center;
     font-size: 30px;
+    text-align: center;
 }
 
 h3 {
@@ -37,9 +37,10 @@ p {
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
 .opaque-overlay {
-    width: 100%;
+
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    background: rgba(0,0,0,0.5);
 }
 
 /*---------------------------------------------container-fluid*/
@@ -52,19 +53,19 @@ p {
 /*---------------------------------------------brand-container*/
 
 .brand-container {
-    background: url(../images/ejm-logo.jpeg) center center / contain;
     height: 100px;
+    background: url(../images/ejm-logo.jpeg) center center / contain;
     text-align: center;
 }
 
 .brand-container > .brand-container-circle {
     display: inline-block;
-    width: 100px;
     height: 100px;
+    width: 100px;
     padding: 0;
     border: 5px solid #2712ab;
-    margin: 0;
     border-radius: 50%;
+    margin: 0;
 }
 
 .brand-container-circle:hover {
@@ -80,10 +81,10 @@ p {
 /*---------------------------------------------nav-links*/
 
 nav > ul {
-    text-align: center;
     font-size: 175%;
-    text-transform: uppercase;
     background-color: #efefef;
+    text-align: center;
+    text-transform: uppercase;
     padding: 0;
     border-top: 5px solid #2712ab;
     border-bottom: 2px solid #2712ab;
@@ -93,18 +94,18 @@ nav > ul {
 nav li {
     display: inline-block;
     letter-spacing: 4px;
-    margin: 5px 15px 5px 15px;
     vertical-align: middle;
+    margin: 5px 15px 5px 15px;
 }
 
 nav a {
-    text-decoration: none;
     color: #2712ab;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: none;
     color: #daa520;
+    text-decoration: none;
 }
 
 .active {
@@ -114,8 +115,8 @@ nav a:hover {
 /*---------------------------------------------social-media*/
 
 #social-media-container {
-    text-align: center;
     font-size: 15px;
+    text-align: center;
     background-color: #efefef;
     padding: 0;
     border-bottom: 2px solid #2712ab;
@@ -124,8 +125,8 @@ nav a:hover {
 
 .social-media-links {
     display: inline-block;
-    margin: 0 60px 0 60px;
     vertical-align: middle;
+    margin: 0 60px 0 60px;
 }
 
 .social-media-links i {
@@ -139,48 +140,42 @@ nav a:hover {
 /*---------------------------------------------welcome*/
 
 .welcome-image {
+    height: 700px;
+    width: 100%;
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    height: 700px;
-    width: 100%;
 }
 
-.welcome-image .welcome-header {
-    position: relative;
-    top: 150px;
-    padding: 50px 50px 0 50px;
-    color: #fff;
-}
-
+.welcome-image .welcome-header,
 .welcome-image .welcome-subheader {
     position: relative;
     top: 150px;
-    padding: 50px;
-    color: #fff;
+    color: #efefef;
+    padding: 50px 50px 0 50px;
 }
 
 /*---------------------------------------------signup*/
 
 #signup-banner-container {
     display: inline-block;
+    height: 157px;
+    width: 100%;
+    background: #ff6961;
+    color: #fff;  
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
-    background: #ff6961;
-    height: 157px;
-    width: 100%;
     padding: 10px 0 20px 0;
 }
 
 .signup-banner-button {
+    background: #efefef;
+    color: #2712ab;
     font-size: 30px;
     text-transform: uppercase;
-    color: #2712ab;
-    background: #efefef;
     padding: 5px 20px;
     border: 5px solid #2712ab;
     margin-top: 10px;   
@@ -192,17 +187,17 @@ nav a:hover {
     box-shadow: 8px 8px 10px #000; 
 }
 
+/*---------------------------------------------signup-form*/
+
 .signup-form-image {
+    height: 600px;
+    width: 100%;
     background-image: url(../images/ewan-james-acoustic-body.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    height: 600px;
-    width: 100%;
 }
-
-/*---------------------------------------------signup-form*/
 
 .signup-form-cells {
     background: #efefef;
@@ -212,12 +207,12 @@ nav a:hover {
 
 #listen-banner {
     display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    color: #2712ab;
-    background: #efefef;
     height: 157px;
     width: 100%;
+    background: #efefef;
+    color: #2712ab;
+    text-align: center;
+    text-transform: uppercase;
     padding: 10px 0;
 }
 
@@ -229,31 +224,31 @@ nav a:hover {
 /*---------------------------------------------about-me-headshot-image*/
 
 #about-me {
+    width: 100%;
     background-image: url(../images/ewan-james-headshot.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center / contain;
     text-align: center;
-    width: 100%;
 }
 
 #about-me-anchor > ul {
-    text-align: center;
     background: #efefef;
+    text-align: center;
 }
 
 #about-me-anchor li {
     display: inline-block;
-    margin: 5px 60px 5px 60px;
     vertical-align: middle;
+    margin: 5px 60px 5px 60px;
 }
 
 #about-me-anchor i {
     display: inline-block;
-    margin: 5px 60px 5px 60px;
     color: #2712ab;
     font-size: 100px;
+    margin: 5px 60px 5px 60px;
 }
 
 #about-me-anchor i:hover {
@@ -265,9 +260,9 @@ nav a:hover {
 #history,
 #my-guitars,
 #my-equipment {
-    text-align: center;
     color: #efefef;
     font-size: 50px;
+    text-align: center;
 }
 
 /*---------------------------------------------new-song*/
@@ -318,10 +313,10 @@ nav a:hover {
 }
 
 .downloads-image-container {
-    height: 500px;
-    width: 700px;
     max-height: 100%;
     max-width: 100%;
+    height: 500px;
+    width: 700px;
     border: 2px solid #2712ab;
     margin-left: 75px;
 }
@@ -361,8 +356,8 @@ nav a:hover {
 footer {
     top: 0;
     left: 0;
-    background:#efefef;
     height: 60px;
+    background:#efefef;
     text-align: center;
     border-top: 5px solid #2712ab;
 }
@@ -370,8 +365,8 @@ footer {
 .owner-designer {
     top: 30px;
     left: 0;
-    text-align: center;
     background: inherit;
+    text-align: center;
     padding: 20px 0;
 }
 
@@ -399,11 +394,11 @@ footer {
 
 .welcome-image .welcome-header {
     padding: 25px 25px 0 25px;
-    color: #fff;
+    color: #efefef;
 }
 
 .welcome-image .welcome-subheader {
     padding: 25px;
-    color: #fff;
+    color: #efefef;
 }
 }
