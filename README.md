@@ -182,12 +182,14 @@ During testing I noticed that the 'back-to-top' links were not in the centre of 
 link I added the declaration 'text-align: center'. However, on the downloads page I had to add an extra style attributed to the ID 'feature-two-downloads' which was 
 the parent div for the link in that page.
 
+After a lot of tidying up the css code to simplify the styles and reuse some of them, the stylesheet is now much smalled than it was originally.
+
 ## DEPLOYMENT
 
 
 ## CREDITS
 * Photos were supplied by Ewan Brown (Ewan James) along with the audio and social media links.
-* Biography of Ewan was written by him and then modified by me to suit the needs of each page in the website.
+* Biography of Ewan was written by him and then modified by me to suit the needs of the page in the website.
 
 ## CONTENT
 
