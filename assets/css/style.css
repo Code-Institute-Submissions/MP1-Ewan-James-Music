@@ -162,7 +162,7 @@ nav a:hover {
     color: #fff;
 }
 
-/*---------------------------------------------signup-banner*/
+/*---------------------------------------------signup*/
 
 #signup-banner-container {
     display: inline-block;
@@ -200,6 +200,12 @@ nav a:hover {
     background-position: center center;
     height: 600px;
     width: 100%;
+}
+
+/*---------------------------------------------signup-form*/
+
+.signup-form-cells {
+    background: #efefef;
 }
 
 /*---------------------------------------------listen-banner*/
