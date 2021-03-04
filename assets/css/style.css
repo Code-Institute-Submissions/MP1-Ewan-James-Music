@@ -14,7 +14,7 @@ body {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h2 {
@@ -29,6 +29,13 @@ h2 {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
+}
+
+/*---------------------------------------------container-fluid*/
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
 /*---------------------------------------------brand-container*/
@@ -95,37 +102,30 @@ nav a:hover {
 
 /*---------------------------------------------social-media*/
 
-.social-media > ul {
+#social-media-container {
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     background-color: #efefef;
     padding: 0;
     border-bottom: 2px solid #2712ab;
     margin: 0;
 }
 
-.social-media li {
+.social-media-links {
     display: inline-block;
-    margin: 5px 60px 5px 60px;
+    margin: 0 60px 0 60px;
     vertical-align: middle;
 }
 
-.social-media-icon i {
+.social-media-links i {
     color: #2712ab;
 
 }
-.social-media-icon i:hover {
+.social-media-links i:hover {
     color: #daa520;
 }
 
-/*---------------------------------------------container-fluid*/
-
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
-
-/*---------------------------------------------welcome-image*/
+/*---------------------------------------------welcome*/
 
 .welcome-image {
     background-image: url(../images/guitar-closeup.jpg);
@@ -133,32 +133,52 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
 .welcome-image .welcome-header {
+    position: relative;
+    top: 150px;
     padding: 50px 50px 0 50px;
     color: #fff;
 }
 
 .welcome-image .welcome-subheader {
+    position: relative;
+    top: 150px;
     padding: 50px;
     color: #fff;
 }
 
 /*---------------------------------------------signup-banner*/
 
-#signup-banner {
+#signup-banner-container {
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
     background: #ff6961;
     height: 157px;
     width: 100%;
-    padding: 40px 0;
-    border-bottom: 2px solid #2712ab;
+    padding: 10px 0 20px 0;
+}
+
+.signup-banner-button {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2712ab;
+    background: #efefef;
+    padding: 5px 20px;
+    border: 5px solid #2712ab;
+    margin-top: 10px;   
+}
+
+.signup-banner-button:hover {
+    color: #daa520;
+    border: 5px solid #daa520;
+    box-shadow: 8px 8px 10px #000; 
 }
 
 .signup-form-image {
@@ -169,6 +189,23 @@ nav a:hover {
     background-position: center center;
     height: 600px;
     width: 100%;
+}
+
+/*---------------------------------------------listen-banner*/
+
+#listen-banner {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2712ab;
+    background: #efefef;
+    height: 157px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.listen-banner-heading {
+
 }
 
 /*---------------------------------------------about-me-headshot-image*/
@@ -250,7 +287,7 @@ nav a:hover {
     padding: 0 60px;
 }
 
-/*---------------------------------------------callout-signup-jumbotron*/
+/*---------------------------------------------callout-signup-jumbotron*
 
 #signup-callout {
     height: 157px;
@@ -278,7 +315,7 @@ nav a:hover {
     text-align: center;
     background-color: #efefef;
     border: 5px solid #2712ab;
-    /*margin-bottom: 20px;*/
+    /*margin-bottom: 20px;
 }
 
 .callout-signup-jumbotron .btn-primary:hover {
@@ -291,7 +328,7 @@ nav a:hover {
 /*---------------------------------------------callout newsong*/
 
 .callout-newsong {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url(../images/ewan-james-im-sorry-reworked.jpg);
     background-repeat: no-repeat;
@@ -419,4 +456,10 @@ footer {
     padding: 25px;
     color: #fff;
 }
+}
+/*
+*   {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
