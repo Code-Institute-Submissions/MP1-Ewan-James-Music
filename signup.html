@@ -78,26 +78,41 @@
     </nav>
     <!--/social-media-->
 
-    <!--signup-banner-->
-    <div id="signup-banner-container" aria-label="callout-to-signup">
-        <h2 class="signup-banner-heading">Receive the latest EJM news first! Signup Below!</h2>
-    </div>
-    <!--/signup-banner-->
-
     <!--signup-form-->
-    <div id="signup-form" aria-label="signup-form">
+    <div id="signup-form-container" aria-label="signup-form">
         <div class="signup-form-image">
             <div class="opaque-overlay">
-                <form>
-                    <fieldset>
-                        <label for="fname">First Name:</label>
-                        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
-                        <label for="lname">Last Name:</label>
-                        <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
-                        <label for="email">Email Address:</label>
-                        <input type="email" name="email" id="email" placeholder="Enter your Email adrress" required>
-                    </fieldset>
-                </form>
+                <form class="signup-form-cells">
+					<fieldset>
+						<div><legend>Signup Below to receive the email newsletter:</legend>
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+
+                            <label for="age">Age:</label>
+                            <input type="number" min="15" max="99" name="age" id="age" placeholder="Age" required>
+                        </div>
+                        <div>
+                            <label for="address1">Address 1:</label>
+                            <input type="text" name="address1" id="address1" placeholder="First Line of Address" required>
+                            
+                            <label for="address2">Address 2:</label>
+                            <input type="text" name="address2" id="address2" placeholder="Second Line of Address">
+
+                            <label for="address3">Address 3:</label>
+                            <input type="text" name="address3" id="address3" placeholder="Third Line of Address">
+                            
+                            <label for="postcode">Postcode:</label>
+                            <input type="postcode" name="postcode" id="postcode" placeholder="Enter your postcode" required>
+                        </div>
+						<button>
+                            <a class="signup-banner-button" href="signup.html">
+                            <input type="submit" value="Sign Me Up!"></a>
+                        </button>
+					</fieldset>
+				</form>
             </div>
         </div>
     </div>
