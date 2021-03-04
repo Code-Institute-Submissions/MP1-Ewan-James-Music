@@ -90,7 +90,8 @@ the user to signup their email address to receive updates. Then the main page ti
 After discussions with Ewan about his favourite colours, he decided that he wanted to have the standing theme for text running throughout the website as a
 deep blue. Unsure of the blue colour used in his logo design, I asked him to look at a selection of hex colours in Adobe Photoshop and he liked #2712ab.
 He also liked 'goldenrod' so we looked up the hex colour for that using google and settled on using #daa520 for the hover effects on the nav selections. Again,
-to keep consistency, we decided that the social media icons would all be in the same blue as the text and the same goldenrod for the hover effects.
+to keep consistency, we decided that the social media icons would all be in the same blue as the text and the same goldenrod for the hover effects. This style 
+has been used consistently across the whole site.
 
 We decided that the best looking font for the site would be 'lato' from 'googlefonts'. All navigation pages would be in uppercase to stand out, each with a
 goldenrod (#daa520) hover effect.
@@ -103,17 +104,17 @@ will have the navigation layout identical.
 
 Whilst building the site, I became aware that it looked very basic, so after consulting with Ewan we decided to add a background picture to
 the home page and change the menu and navgation to fixed position so that the rest of the page would scroll whilst the background and menu stayed the same. These
-effect were liked by Ewan so we decided to use the same effects accross all four pages.
+effect were liked by Ewan so we decided to use the same effects across all four pages.
 
-Ewan and I also decided that the headshot photo would look better inside the circle and the logo repeated accross the header instead so this was changed.
+Ewan and I also decided that the headshot photo would look better inside the circle and the EJM logo repeated across the header instead so this was changed.
 To make the section for the signup button ('YES PLEASE') stand out more, Ewan and I decided to make the section a different colour to the rest of the page. He
 picked a soft pastel colour which is not too dominant on the page but still stands out enough.
 
 It was decided that 'YES PLEASE!' on the signup button was not descriptive enough for a blind user so this was changed to 'Sign Me Up!' instead.
 
 To tidy-up the top of each page, it was decided to remove the title of each page. The justification was that the content of each page was different enough on each 
-one that the user would know where they are on the site without these. Each page nav is gold when the user is on that page (caused by the 'active' class is all 
-but the home page's case which uses a custom style) and a different picture on each page.
+one that the user would know where they are on the site without these. Each page nav is gold when the user is on that page (caused by the 'active' class in all 
+but the home page's case which uses a custom inline style and a bottom-border changed to #daa520 as well) plus a different picture on each page.
 
 ## FEATURES
 
