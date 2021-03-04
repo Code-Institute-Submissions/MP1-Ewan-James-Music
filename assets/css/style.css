@@ -22,6 +22,13 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    color: #efefef;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 60px;
+}
+
 /*---------------------------------------------opaque-overlay*/
 
 /*Opaque overlay Code copied from 'Code Institute: Updating Our Callout' lesson source code*/
@@ -205,7 +212,8 @@ nav a:hover {
 }
 
 .listen-banner-heading {
-
+    font-size: 30px;
+    padding-top: 50px;  
 }
 
 /*---------------------------------------------about-me-headshot-image*/
@@ -242,92 +250,19 @@ nav a:hover {
     color: #daa520;
 }
 
-/*---------------------------------------------History*/
+/*---------------------------------------------history/my-guitars/my-equipment*/
 
-#history {
-    text-align: center;
-    color: #efefef;
-    font-size: 50px;
-}
-
-#history ~ .history-paragraph {
-    color: #efefef;
-    font-size: 20px;
-    text-align: justify;
-    padding: 0 60px;
-}
-
-/*---------------------------------------------my-guitars*/
-
-#my-guitars {
-    text-align: center;
-    color: #efefef;
-    font-size: 50px;
-}
-
-#my-guitars ~ .my-guitars-paragraph {
-    color: #efefef;
-    font-size: 20px;
-    text-align: justify;
-    padding: 0 60px;
-}
-
-/*---------------------------------------------my-equipment*/
-
+#history,
+#my-guitars,
 #my-equipment {
     text-align: center;
     color: #efefef;
     font-size: 50px;
 }
 
-#my-equipment ~ .my-equipment-paragraph {
-    color: #efefef;
-    font-size: 20px;
-    text-align: justify;
-    padding: 0 60px;
-}
+/*---------------------------------------------new-song*/
 
-/*---------------------------------------------callout-signup-jumbotron*
-
-#signup-callout {
-    height: 157px;
-}
-
-.callout-signup-jumbotron {
-    background-color: #ff6961;
-    border-bottom: 2px solid #2712ab;
-}
-
-.callout-signup-jumbotron > .display-4 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.callout-signup-jumbotron .btn-primary {
-    color: #2712ab;
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 2px;
-    text-align: center;
-    background-color: #efefef;
-    border: 5px solid #2712ab;
-    /*margin-bottom: 20px;
-}
-
-.callout-signup-jumbotron .btn-primary:hover {
-    color: #daa520;
-    background-color: #efefef;
-    border: 5px solid #daa520;
-    box-shadow: 8px 8px 10px #000;
-}
-
-/*---------------------------------------------callout newsong*/
-
-.callout-newsong {
+.new-song {
     height: 700px;
     width: 100%;
     background: url(../images/ewan-james-im-sorry-reworked.jpg);
@@ -335,17 +270,17 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    text-align: center;
 }
 
-.callout-newsong .callout-newsong-heading {
+.new-song .new-song-heading {
     color: #fff;
     text-align: center;
 }
 
-.callout-newsong iframe {
+.new-song iframe {
+    position: relative;
     top: 100px;
-    left: 0;
+    left: 350px;
     border: 2px solid #2712ab;
     margin: 20px;
 }
@@ -378,6 +313,11 @@ footer {
     text-align: center;
     background: inherit;
     padding: 20px 0;
+}
+
+.owner-designer-copyright-notice {
+    color: #2712ab;
+    text-align: center;
 }
 
 /*---------------------------------------------downloads*/
