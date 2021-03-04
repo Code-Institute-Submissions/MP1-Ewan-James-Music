@@ -11,14 +11,6 @@ body {
     font-family: lato, sans-serif;
 }
 
-/*Style below copied from https://www.weblimitless.com/stop-website-showing-white-space-right-side/*/
-html,body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -347,6 +339,7 @@ footer {
     left: 0;
     background:#efefef;
     height: 60px;
+    text-align: center;
     border-top: 5px solid #2712ab;
 }
 
@@ -358,9 +351,9 @@ footer {
     padding: 20px 0;
 }
 
-/*---------------------------------------------Feature-one*/
+/*---------------------------------------------downloads*/
 
-.feature-one-container {
+.dowloads-container {
     height: 700px;
     width: 1500px;
     background: #efefef;
@@ -372,7 +365,7 @@ footer {
     margin-bottom: 0;
 }
 
-.feature-one-heading {
+.downloads-heading {
     color: #2712ab;
     font-size: 125%;
     margin-top: 50px;
@@ -380,7 +373,7 @@ footer {
     margin-bottom: 50px;
 }
 
-.feature-one-image {
+.downloads-image-container {
     height: 500px;
     width: 700px;
     max-height: 100%;
@@ -389,79 +382,23 @@ footer {
     margin-left: 75px;
 }
 
-.feature-one-image > img {
+.downloads-image {
     height: 500px;
     width: 700px;
     max-height: 100%;
     max-width: 100%;
 }
 
-.feature-one-apple-link img {
+.downloads-apple-link {
     position: relative;
     top: -500px;
     left: 875px;
 }
 
-.feature-one-googleplay-link img {
+.downloads-googleplay-link {
     position: relative;
     top: -320px;
     left: 875px;
-}
-
-/*---------------------------------------------Feature-one*/
-
-#feature-two-downloads {
-    text-align: center;
-}
-
-.feature-two-container {
-    height: 700px;
-    width: 1500px;
-    background: #efefef;
-    color: #2712ab;
-    font-size: 30px;
-    text-align: center;
-    border: 2px solid #2712ab;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-}
-
-.feature-two-heading {
-    color: #2712ab;
-    font-size: 125%;
-    text-align: left;
-    margin-top: 50px;
-    margin-left: 75px;
-    margin-bottom: 50px;
-}
-
-.feature-two-image {
-    height: 500px;
-    width: 700px;
-    max-height: 100%;
-    max-width: 100%;
-    border: 2px solid #2712ab;
-    margin-left: 75px;
-}
-
-.feature-two-image > img {
-    height: 500px;
-    width: 700px;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.feature-two-apple-link img {
-    position: relative;
-    top: -500px;
-    left: 400px;
-}
-
-.feature-two-googleplay-link img {
-    position: relative;
-    top: -320px;
-    left: 475px;
 }
 
 /*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
