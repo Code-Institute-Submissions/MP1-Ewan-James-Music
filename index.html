@@ -50,36 +50,34 @@
                 <li><a href="signup.html">Signup</a></li>
             </ul>
         </nav>
-        <!--/.nav-->
+        <!--/nav-->
     </header>
     <!--social-media-->
-    <section id="social-media">
-        <div class="social-media">
-            <!--The following links to social-media icons were copied from www.fontawesome.com-->
-            <ul>
-                <li>
-                    <a class="social-media-icon" href="https://www.instagram.com/ewanjamesmusic/" target="_blank"
-                        title="Go to Instagram"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a class="social-media-icon"
-                        href="https://open.spotify.com/artist/49uTWgRbD8K7RSeApufkFT?si=rkKSakixQWynHGm6H_b0Hw"
-                        target="_blank" title="Go to Spotify"><i class="fab fa-spotify"></i></a>
-                </li>
-                <li>
-                    <a class="social-media-icon" href="https://www.youtube.com/channel/UCYf1PWRybelwtc_5RNVzxpw"
-                        target="_blank" title="Go to Youtube"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a class="social-media-icon" href="https://music.apple.com/gb/artist/ewan-james/1494115083"
-                        target="_blank" title="Go to Apple Music"><i class="fab fa-apple"></i></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!--/.social-media .social-media-icon-->
+    <nav id="social-media-container">
+        <!--The following links to social-media icons were copied from www.fontawesome.com-->
+        <ul>
+            <li>
+                <a class="social-media-links" href="https://www.instagram.com/ewanjamesmusic/" target="_blank"
+                    title="Go to Instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a class="social-media-links"
+                    href="https://open.spotify.com/artist/49uTWgRbD8K7RSeApufkFT?si=rkKSakixQWynHGm6H_b0Hw"
+                    target="_blank" title="Go to Spotify"><i class="fab fa-spotify"></i></a>
+            </li>
+            <li>
+                <a class="social-media-links" href="https://www.youtube.com/channel/UCYf1PWRybelwtc_5RNVzxpw"
+                    target="_blank" title="Go to Youtube"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+                <a class="social-media-links" href="https://music.apple.com/gb/artist/ewan-james/1494115083"
+                    target="_blank" title="Go to Apple Music"><i class="fab fa-apple"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!--/social-media-->
 
-    <!--guitar-image-welcome-->
+    <!--welcome-->
     <section id="welcome">
         <div class="container-fluid welcome-image">
             <div class="opaque-overlay">
@@ -92,42 +90,43 @@
             </div>
         </div>
     </section>
-    <!--/.guitar-image-welcome-->
+    <!--/welcome-->
 
-    <!--callout .signup .btm .btn-primary-->
-    <section id="signup-callout" aria-label="click for email">
-        <!--The following button code was copied from bootstrap V4.6. Modified to fit my project-->
-        <!--jumbotron-->
-        <div class="callout-signup-jumbotron">
-            <h2 class="display-4">Want to receive the latest Ewan James news before anyone else?</h2>
-            <!--The following links to smile icons were copied from www.fontawesome.com-->
-            <a class="btn btn-primary btn-lg" href="./signup.html" role="button"><i class="far fa-smile"></i>
-                Sign Me Up! <i class="far fa-smile"></i></a>
-        </div>
-        <!--/.jumbotron .display-4 .btn-primary-->
-    </section>
-    <!--/.callout .signup .btn .btn-primary-->
+    <!--signup-banner-->
+    <div id="signup-banner-container" aria-label="callout-to-signup">
+        <h2 class="signup-banner-heading">Want to receive the latest EJM news first?</h2>
+        <button>
+            <a class="signup-banner-button" href="signup.html">Sign Me Up!</a>
+        </button>
+    </div>
+    <!--/signup-banner-->
 
-    <!--callout-newsong-->
-    <section id="newsong" aria-label="play-video-of-newsong">
-        <div class="container-fluid callout-newsong">
+    <!--listen-banner-->
+    <div id="listen-banner">
+        <h1 class="listen-banner-heading">Listen to the new song by clicking below!</h1>
+    </div>
+    <!--/listen-banner-->
+
+    <!--new-song-->
+    <div id="new-song" aria-label="play-video-of-new-song">
+        <div class="container-fluid new-song">
             <div class="opaque-overlay">
-                <h2 class="callout-newsong-heading">Listen to the new song by clicking below!
-                </h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NOkVChId9AM"
+                <iframe width="840" height="473" src="https://www.youtube.com/embed/NOkVChId9AM"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
         </div>
-    </section>
-    <!--/.callout-newsong-->
+    </div>
+    <!--/new-song-->
 
-   <footer id="owner-designer">
+    <footer id="owner-designer">
         <div class="owner-designer-copyright">
             <a class="back-to-top" href="#brand">Back to top</a>
-            <p class="owner-designer-copyright-notice">(c) Copyright Ewan James 2021. Website designed by Lee Anthony Brown.</p>
+            <p class="owner-designer-copyright-notice">(c) Copyright Ewan James 2021. Website designed by Lee Anthony
+                Brown.</p>
         </div>
     </footer>
 </body>
+
 </html>
