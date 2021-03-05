@@ -172,8 +172,9 @@ I am also aware of a few other structural fixes that are outstanding such as the
 of the iframe in index.html, the footer not lining up properly in the downloads page, the form styles not being applied properly in the signup page 
 and the media styles missing for tablet size devices.
 
-In my haste to get the site ready for testing, I missed the fact that the signup page with the form inputs does not have the key input needed: email!
-This would need to be added before making this webpage live for Ewan's fans to use.
+In my haste to get the site ready for final validation testing, I missed the fact that the signup page with the form inputs does not have the key input needed: email!
+This would need to be added before making this webpage live for Ewan's fans to use. I also spotted a spelling mistake in the 'about' page under 'Equipment' where 
+I mis-spelt 'Xenyx' with the y and x the wrong way around. This would also be changed before the site were to go live to Ewan's fans.
 
 ## WISHLIST
 
@@ -210,6 +211,15 @@ The design of this project meets the user stories as follows:
 3. Find out more about Ewan James and his equipment. - This information is all in the 'About' page which is Ewan's history plus what guitar and equipment he uses.
 4. Watch videos by Ewan James. - The home page has a youtube video on it (but this was disabled in the media statements for mobiles in the css due to time and experience constraints).
 5. Buy official merchandise and ticket. - This section could be added in the future fairly easily once merchandise is available.
+
+To fully test the site I used several devices, both virtual and real. For testing on desktop/laptop devises I used HP Envy, HP Pavilion and Apple MacBook Air laptops. The HP laptops both had 5 of the 6 major browsers, so I used the HP Envy to test on Chrome Version 88.0, Firefox Version 86.0, Internet Explorer V1909, Microsoft Edge Version 88.0 and Opera Version 2019.04.09. Then I used both the Apple MacBook, Iphone X and Iphone 5 to test the Safari browser. I also used www.responsinator.com to test the responsiveness virtually of other devices I did not have access to.
+
+From my testing I found the following:
+
+1. iphone X (and all devices using Safari browser):  The background images do not stay fixed in the background and scroll with the content.
+2. iphones in landscape mode leave white bars down each side of the screen. Social media icons stay hover color of gold after being selected. This could be how mobiles handle that though.
+3. Apple & Google Download links are rendering off the right of the on screen on small desktop pages and mobile devices causing them to scroll (except for the small laptop>.
+4. Postcode cell in signup page not accepting postcodes and has up/down arrows which means the 'type' is set wrong in my code.
 
 ## DEPLOYMENT
 
