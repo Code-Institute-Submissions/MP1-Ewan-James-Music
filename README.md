@@ -172,6 +172,9 @@ I am also aware of a few other structural fixes that are outstanding such as the
 of the iframe in index.html, the footer not lining up properly in the downloads page, the form styles not being applied properly in the signup page 
 and the media styles missing for tablet size devices.
 
+In my haste to get the site ready for testing, I missed the fact that the signup page with the form inputs does not have the key input needed: email!
+This would need to be added before making this webpage live for Ewan's fans to use.
+
 ## WISHLIST
 
 In addition to the fixes mentioned in the previous paragraph, I would also like to implement a backend data capture system to form a database to support 
