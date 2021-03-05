@@ -160,6 +160,22 @@ future improvement to the site.
 * Font Awesome V5.15.2 - This link is for adding icons to the webpages.
 * Googlefonts - Used to select and implement fonts throughout the webpages.
 
+## BUGS TO FIX:
+
+When designing the site I made a rookie mistake and didn't take into account that Ewan's target audience would mostly be viewing this website on a 
+mobile device of some-kind in my notes and therefore I should have focused my attention on setting up the mobile design first and then the larger devices.
+This I believe is called 'mobile-first' design which I had overlooked. This meant that the responsiveness of the site is below standard. I believe this 
+is reflected in the responsiveness testing (see attached testing spreadsheet). More time needs to be spent working out the viewer dimensions for a 
+mobile device in order to complete this website correctly.
+
+I am also aware of a few other structural fixes that are outstanding such as the white space at the bottom of the about-me page, correct positioning
+of the iframe in index.html, the footer not lining up properly in the downloads page, the form styles not being applied properly in the signup page 
+and the media styles missing for tablet size devices.
+
+## WISHLIST
+
+In addition to the fixes mentioned in the previous paragraph, I would also like to implement a backend data capture system to form a database to support 
+the newsletter emailing list.
 
 ## TESTING
 
@@ -175,29 +191,32 @@ The second was a more detailed spreadsheet designed to test the validity of the 
 and web browsers. This was similar to a testing process created by former student of the Code Institute, Tim Nelson and I re-created and adapted it to work with the
 contents of my website and testing so as not to copy his work directly.
 
-Both sheets are in the directory labelled 'testing' in this repository for you to view. I have included snippings of the first validation test results in the 'testing'
-folder prior to completion of the whole site to test that my code structure was correct.
+Both sheets are in the directory labelled 'testing' in this repository for you to view. I have included validation test results in the 'testing'
+folder as well.
 
 During testing I noticed that the 'back-to-top' links were not in the centre of the page where I wanted them, so on pages that had a particular parent already for the
 link I added the declaration 'text-align: center'. However, on the downloads page I had to add an extra style attributed to the ID 'feature-two-downloads' which was 
 the parent div for the link in that page.
 
-After a lot of tidying up the css code to simplify the styles and reuse some of them, the stylesheet is now much smalled than it was originally.
+After a lot of tidying up the css code to simplify the styles and reuse some of them, the stylesheet is now much smaller than it was originally.
 
 ## DEPLOYMENT
 
+I've deployed my site on **GitHub Pages** which can be viewed at the following URL: https://leeabrown24.github.io/MP1-Ewan-James-Music/.
+No local deployment was required for this project.
 
 ## CREDITS
-* Photos were supplied by Ewan Brown (Ewan James) along with the audio and social media links.
+* Photos were supplied by Ewan Brown (Ewan James) along with social media links.
 * Biography of Ewan was written by him and then modified by me to suit the needs of the page in the website.
+* Code snipets from 'Code Institute Full Stack Developer' course lessons.
 
 ## CONTENT
 
-
+The text for the about-me html was supplied by Ewan and adapted to fit into the website. All other text on the site was created for the site by myself.
 
 ## MEDIA
 
-
+The photos and links in this site were all supplied by Ewan from his social media accounts.
 
 ## ACKNOWLEDGEMENTS
 
