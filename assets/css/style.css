@@ -140,7 +140,7 @@ nav a:hover {
 /*---------------------------------------------welcome*/
 
 .welcome-image {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-image: url(../images/guitar-closeup.jpg);
     background-repeat: no-repeat;
@@ -187,22 +187,6 @@ nav a:hover {
     box-shadow: 8px 8px 10px #000; 
 }
 
-/*---------------------------------------------signup-form*/
-
-.signup-form-image {
-    height: 600px;
-    width: 100%;
-    background-image: url(../images/ewan-james-acoustic-body.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-.signup-form-cells {
-    background: #efefef;
-}
-
 /*---------------------------------------------listen-banner*/
 
 #listen-banner {
@@ -221,6 +205,40 @@ nav a:hover {
     padding-top: 50px;  
 }
 
+/*---------------------------------------------new-song*/
+
+.new-song {
+    height: 700px;
+    width: 100%;
+    background: url(../images/ewan-james-im-sorry-reworked.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.new-song iframe {
+    float: o auto;
+    border: 2px solid #2712ab;
+    margin: 20px;
+}
+
+/*---------------------------------------------signup-form*/
+
+.signup-form-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/ewan-james-acoustic-body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.signup-form-cells {
+    background: #efefef;
+}
+
 /*---------------------------------------------about-me-headshot-image*/
 
 #about-me {
@@ -229,7 +247,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center / contain;
+    background-position: contain;
     text-align: center;
 }
 
@@ -265,30 +283,6 @@ nav a:hover {
     text-align: center;
 }
 
-/*---------------------------------------------new-song*/
-
-.new-song {
-    height: 700px;
-    width: 100%;
-    background: url(../images/ewan-james-im-sorry-reworked.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-.new-song .new-song-heading {
-    color: #fff;
-    text-align: center;
-}
-
-.new-song iframe {
-    position: relative;
-    top: 100px;
-    left: 350px;
-    border: 2px solid #2712ab;
-    margin: 20px;
-}
 
 /*---------------------------------------------downloads*/
 
@@ -301,7 +295,7 @@ nav a:hover {
     border: 2px solid #2712ab;
     margin-top: 25px;
     margin-left: 25px;
-    margin-bottom: 0;
+    margin-bottom:25px;
 }
 
 .downloads-heading {
@@ -376,29 +370,89 @@ footer {
 }
 
 /*The following style attributes for different device resolutions were copied from Code Institute: Love Running: Responsive Elements' lessons source code*/
-/*---------------------------------------------Laptop Media Styles*/
-@media screen and (max-width: 1393px) {
-    
-}
+/*---------------------------------------------Media styles*/
 
-/*---------------------------------------------Tablet Media Styles*/
 @media screen and (max-width: 943px) {
 
 }
 
-/*---------------------------------------------Mobile Media Styles*/
 @media screen and (max-width: 800px) {
+
+nav > ul {
+    font-size: 100%;
+}
+
 .nav-divider {
     display: none;
 }
 
 .welcome-image .welcome-header {
-    padding: 25px 25px 0 25px;
+    position: relative;
+    top: auto;
     color: #efefef;
+    padding: 25px 25px 0 25px;
 }
 
 .welcome-image .welcome-subheader {
-    padding: 25px;
+    position: relative;
+    top: auto;
     color: #efefef;
+    padding: 25px 25px 0 25px;
+}
+
+#listen-banner {
+    display: none;
+}
+
+.listen-banner-heading {
+    font-size: 20px;
+    padding-top: 25px; 
+}
+
+.new-song iframe {
+    display: none;
+}
+
+#about-me-anchor i {
+    font-size: 33px;
+    margin: 5px 0px 5px 0px;
+}
+
+#history,
+#my-guitars,
+#my-equipment {
+    font-size: 30px;
+}
+
+.dowloads-container {
+    max-height: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+.downloads-heading {
+    font-size: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.downloads-image-container {
+    position: static;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.downloads-apple-link {
+    display: none;
+}
+
+.downloads-googleplay-link {
+    display: none;
+}
+
+p {
+    font-size: 10px;
+    padding: 0 30px;
 }
 }
