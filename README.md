@@ -200,6 +200,14 @@ the parent div for the link in that page.
 
 After a lot of tidying up the css code to simplify the styles and reuse some of them, the stylesheet is now much smaller than it was originally.
 
+The design of this project meets the user stories as follows:
+
+1. Download new music by Ewan James. - This can be done by going to the 'Downloads' page of the website and clicking on either the Apple Store or Googleplay links.
+2. Receive email newsletters about Ewan James. - This would be done by going to the 'Signup' page of the website and filling in the form, then submitting. This link is not yet live though. Each page of the site has a banner inviting the user to signup as well.
+3. Find out more about Ewan James and his equipment. - This information is all in the 'About' page which is Ewan's history plus what guitar and equipment he uses.
+4. Watch videos by Ewan James. - The home page has a youtube video on it (but this was disabled in the media statements for mobiles in the css due to time and experience constraints).
+5. Buy official merchandise and ticket. - This section could be added in the future fairly easily once merchandise is available.
+
 ## DEPLOYMENT
 
 I've deployed my site on **GitHub Pages** which can be viewed at the following URL: https://leeabrown24.github.io/MP1-Ewan-James-Music/.
